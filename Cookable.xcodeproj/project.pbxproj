@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68E4E57E18E9E98500E06DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E4E57D18E9E98500E06DED /* Foundation.framework */; };
+		68E4E58018E9E98500E06DED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E4E57F18E9E98500E06DED /* CoreGraphics.framework */; };
+		68E4E58218E9E98500E06DED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E4E58118E9E98500E06DED /* UIKit.framework */; };
+		68E4E58818E9E98500E06DED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68E4E58618E9E98500E06DED /* InfoPlist.strings */; };
+		68E4E58A18E9E98500E06DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4E58918E9E98500E06DED /* main.m */; };
+		68E4E58E18E9E98500E06DED /* RNGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4E58D18E9E98500E06DED /* RNGAppDelegate.m */; };
+		68E4E59118E9E98500E06DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E4E58F18E9E98500E06DED /* Main.storyboard */; };
+		68E4E59418E9E98500E06DED /* RNGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4E59318E9E98500E06DED /* RNGViewController.m */; };
+		68E4E59618E9E98500E06DED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E4E59518E9E98500E06DED /* Images.xcassets */; };
+		68E4E59D18E9E98500E06DED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E4E59C18E9E98500E06DED /* XCTest.framework */; };
+		68E4E59E18E9E98500E06DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E4E57D18E9E98500E06DED /* Foundation.framework */; };
+		68E4E59F18E9E98500E06DED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E4E58118E9E98500E06DED /* UIKit.framework */; };
+		68E4E5A718E9E98500E06DED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68E4E5A518E9E98500E06DED /* InfoPlist.strings */; };
+		68E4E5A918E9E98500E06DED /* CookableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4E5A818E9E98500E06DED /* CookableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68E4E5A018E9E98500E06DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E4E57218E9E98500E06DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E4E57918E9E98500E06DED;
+			remoteInfo = Cookable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68E4E57A18E9E98500E06DED /* Cookable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E4E57D18E9E98500E06DED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68E4E57F18E9E98500E06DED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68E4E58118E9E98500E06DED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68E4E58518E9E98500E06DED /* Cookable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cookable-Info.plist"; sourceTree = "<group>"; };
+		68E4E58718E9E98500E06DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68E4E58918E9E98500E06DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68E4E58B18E9E98500E06DED /* Cookable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cookable-Prefix.pch"; sourceTree = "<group>"; };
+		68E4E58C18E9E98500E06DED /* RNGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNGAppDelegate.h; sourceTree = "<group>"; };
+		68E4E58D18E9E98500E06DED /* RNGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNGAppDelegate.m; sourceTree = "<group>"; };
+		68E4E59018E9E98500E06DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68E4E59218E9E98500E06DED /* RNGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNGViewController.h; sourceTree = "<group>"; };
+		68E4E59318E9E98500E06DED /* RNGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNGViewController.m; sourceTree = "<group>"; };
+		68E4E59518E9E98500E06DED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68E4E59B18E9E98500E06DED /* CookableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E4E59C18E9E98500E06DED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		68E4E5A418E9E98500E06DED /* CookableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookableTests-Info.plist"; sourceTree = "<group>"; };
+		68E4E5A618E9E98500E06DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68E4E5A818E9E98500E06DED /* CookableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E4E57718E9E98500E06DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E4E58018E9E98500E06DED /* CoreGraphics.framework in Frameworks */,
+				68E4E58218E9E98500E06DED /* UIKit.framework in Frameworks */,
+				68E4E57E18E9E98500E06DED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E4E59818E9E98500E06DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E4E59D18E9E98500E06DED /* XCTest.framework in Frameworks */,
+				68E4E59F18E9E98500E06DED /* UIKit.framework in Frameworks */,
+				68E4E59E18E9E98500E06DED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68E4E57118E9E98500E06DED = {
+			isa = PBXGroup;
+			children = (
+				68E4E58318E9E98500E06DED /* Cookable */,
+				68E4E5A218E9E98500E06DED /* CookableTests */,
+				68E4E57C18E9E98500E06DED /* Frameworks */,
+				68E4E57B18E9E98500E06DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68E4E57B18E9E98500E06DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E4E57A18E9E98500E06DED /* Cookable.app */,
+				68E4E59B18E9E98500E06DED /* CookableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E4E57C18E9E98500E06DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68E4E57D18E9E98500E06DED /* Foundation.framework */,
+				68E4E57F18E9E98500E06DED /* CoreGraphics.framework */,
+				68E4E58118E9E98500E06DED /* UIKit.framework */,
+				68E4E59C18E9E98500E06DED /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68E4E58318E9E98500E06DED /* Cookable */ = {
+			isa = PBXGroup;
+			children = (
+				68E4E58C18E9E98500E06DED /* RNGAppDelegate.h */,
+				68E4E58D18E9E98500E06DED /* RNGAppDelegate.m */,
+				68E4E58F18E9E98500E06DED /* Main.storyboard */,
+				68E4E59218E9E98500E06DED /* RNGViewController.h */,
+				68E4E59318E9E98500E06DED /* RNGViewController.m */,
+				68E4E59518E9E98500E06DED /* Images.xcassets */,
+				68E4E58418E9E98500E06DED /* Supporting Files */,
+			);
+			path = Cookable;
+			sourceTree = "<group>";
+		};
+		68E4E58418E9E98500E06DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E4E58518E9E98500E06DED /* Cookable-Info.plist */,
+				68E4E58618E9E98500E06DED /* InfoPlist.strings */,
+				68E4E58918E9E98500E06DED /* main.m */,
+				68E4E58B18E9E98500E06DED /* Cookable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68E4E5A218E9E98500E06DED /* CookableTests */ = {
+			isa = PBXGroup;
+			children = (
+				68E4E5A818E9E98500E06DED /* CookableTests.m */,
+				68E4E5A318E9E98500E06DED /* Supporting Files */,
+			);
+			path = CookableTests;
+			sourceTree = "<group>";
+		};
+		68E4E5A318E9E98500E06DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E4E5A418E9E98500E06DED /* CookableTests-Info.plist */,
+				68E4E5A518E9E98500E06DED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E4E57918E9E98500E06DED /* Cookable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E4E5AC18E9E98500E06DED /* Build configuration list for PBXNativeTarget "Cookable" */;
+			buildPhases = (
+				68E4E57618E9E98500E06DED /* Sources */,
+				68E4E57718E9E98500E06DED /* Frameworks */,
+				68E4E57818E9E98500E06DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cookable;
+			productName = Cookable;
+			productReference = 68E4E57A18E9E98500E06DED /* Cookable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68E4E59A18E9E98500E06DED /* CookableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E4E5AF18E9E98500E06DED /* Build configuration list for PBXNativeTarget "CookableTests" */;
+			buildPhases = (
+				68E4E59718E9E98500E06DED /* Sources */,
+				68E4E59818E9E98500E06DED /* Frameworks */,
+				68E4E59918E9E98500E06DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E4E5A118E9E98500E06DED /* PBXTargetDependency */,
+			);
+			name = CookableTests;
+			productName = CookableTests;
+			productReference = 68E4E59B18E9E98500E06DED /* CookableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E4E57218E9E98500E06DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RNG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alex Wolff";
+				TargetAttributes = {
+					68E4E59A18E9E98500E06DED = {
+						TestTargetID = 68E4E57918E9E98500E06DED;
+					};
+				};
+			};
+			buildConfigurationList = 68E4E57518E9E98500E06DED /* Build configuration list for PBXProject "Cookable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E4E57118E9E98500E06DED;
+			productRefGroup = 68E4E57B18E9E98500E06DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E4E57918E9E98500E06DED /* Cookable */,
+				68E4E59A18E9E98500E06DED /* CookableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E4E57818E9E98500E06DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E4E59618E9E98500E06DED /* Images.xcassets in Resources */,
+				68E4E58818E9E98500E06DED /* InfoPlist.strings in Resources */,
+				68E4E59118E9E98500E06DED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E4E59918E9E98500E06DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E4E5A718E9E98500E06DED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E4E57618E9E98500E06DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E4E58E18E9E98500E06DED /* RNGAppDelegate.m in Sources */,
+				68E4E58A18E9E98500E06DED /* main.m in Sources */,
+				68E4E59418E9E98500E06DED /* RNGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E4E59718E9E98500E06DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E4E5A918E9E98500E06DED /* CookableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68E4E5A118E9E98500E06DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E4E57918E9E98500E06DED /* Cookable */;
+			targetProxy = 68E4E5A018E9E98500E06DED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68E4E58618E9E98500E06DED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E4E58718E9E98500E06DED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68E4E58F18E9E98500E06DED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E4E59018E9E98500E06DED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68E4E5A518E9E98500E06DED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E4E5A618E9E98500E06DED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68E4E5AA18E9E98500E06DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		68E4E5AB18E9E98500E06DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68E4E5AD18E9E98500E06DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cookable/Cookable-Prefix.pch";
+				INFOPLIST_FILE = "Cookable/Cookable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68E4E5AE18E9E98500E06DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cookable/Cookable-Prefix.pch";
+				INFOPLIST_FILE = "Cookable/Cookable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		68E4E5B018E9E98500E06DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cookable.app/Cookable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cookable/Cookable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CookableTests/CookableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		68E4E5B118E9E98500E06DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cookable.app/Cookable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cookable/Cookable-Prefix.pch";
+				INFOPLIST_FILE = "CookableTests/CookableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E4E57518E9E98500E06DED /* Build configuration list for PBXProject "Cookable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E4E5AA18E9E98500E06DED /* Debug */,
+				68E4E5AB18E9E98500E06DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E4E5AC18E9E98500E06DED /* Build configuration list for PBXNativeTarget "Cookable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E4E5AD18E9E98500E06DED /* Debug */,
+				68E4E5AE18E9E98500E06DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68E4E5AF18E9E98500E06DED /* Build configuration list for PBXNativeTarget "CookableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E4E5B018E9E98500E06DED /* Debug */,
+				68E4E5B118E9E98500E06DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68E4E57218E9E98500E06DED /* Project object */;
+}
