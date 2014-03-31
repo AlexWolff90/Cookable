@@ -24,6 +24,9 @@
                                     <color key="titleColor" red="0.64946442839999996" green="0.33995822069999998" blue="0.84739995000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="mhu-fs-q72" kind="push" id="942-SP-KZB"/>
+                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MS2-rB-kcj">
                                 <rect key="frame" x="0.0" y="10" width="768" height="44"/>
@@ -45,6 +48,9 @@
                                     <color key="titleColor" red="0.64946442839999996" green="0.33995822069999998" blue="0.84739995000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="mhu-fs-q72" kind="push" id="a5I-Qz-Hvn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymU-i7-Fa5">
                                 <rect key="frame" x="300" y="399" width="168" height="42"/>
@@ -54,6 +60,9 @@
                                     <color key="titleColor" red="0.64946442839999996" green="0.33995822069999998" blue="0.84739995000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="mhu-fs-q72" kind="push" id="max-hn-Vb3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -62,10 +71,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller - Title-->
+        <scene sceneID="unl-bY-Uw7">
+            <objects>
+                <viewController id="mhu-fs-q72" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sKX-Ae-DJm"/>
+                        <viewControllerLayoutGuide type="bottom" id="USc-4s-OSJ"/>
+                    </layoutGuides>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="e8K-Dl-JX1">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bp5-KO-gvU">
+                                <rect key="frame" x="0.0" y="13" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Results" id="1lm-l6-CYQ"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </scrollView>
+                    <navigationItem key="navigationItem" title="Title" id="Vgx-kg-373"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BqX-3u-0xU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069" y="-220"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="max-hn-Vb3"/>
+    </inferredMetricsTieBreakers>
 </document>
