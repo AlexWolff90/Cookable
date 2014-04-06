@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3AE925CF-A635-420F-B191-710B4F445FA9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cookable</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5609A550-69C4-45B7-B0CF-7FBA665AEADE</key>
+		<string>https://github.com/AlexWolff90/Cookable.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cookable.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5609A550-69C4-45B7-B0CF-7FBA665AEADE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AlexWolff90/Cookable.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5609A550-69C4-45B7-B0CF-7FBA665AEADE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5609A550-69C4-45B7-B0CF-7FBA665AEADE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cookable</string>
+		</dict>
+	</array>
+</dict>
+</plist>
