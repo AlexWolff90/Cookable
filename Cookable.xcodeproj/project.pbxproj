@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68315FFD18F1CEF700808FEA /* CookableResultTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 68315FFC18F1CEF700808FEA /* CookableResultTile.png */; };
 		68E4E57E18E9E98500E06DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E4E57D18E9E98500E06DED /* Foundation.framework */; };
 		68E4E58018E9E98500E06DED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E4E57F18E9E98500E06DED /* CoreGraphics.framework */; };
 		68E4E58218E9E98500E06DED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E4E58118E9E98500E06DED /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68315FFC18F1CEF700808FEA /* CookableResultTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CookableResultTile.png; sourceTree = "<group>"; };
 		68E4E57A18E9E98500E06DED /* Cookable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E4E57D18E9E98500E06DED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68E4E57F18E9E98500E06DED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +128,7 @@
 		68E4E58418E9E98500E06DED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68315FFC18F1CEF700808FEA /* CookableResultTile.png */,
 				68E4E58518E9E98500E06DED /* Cookable-Info.plist */,
 				68E4E58618E9E98500E06DED /* InfoPlist.strings */,
 				68E4E58918E9E98500E06DED /* main.m */,
@@ -231,6 +234,7 @@
 			files = (
 				68E4E59618E9E98500E06DED /* Images.xcassets in Resources */,
 				68E4E58818E9E98500E06DED /* InfoPlist.strings in Resources */,
+				68315FFD18F1CEF700808FEA /* CookableResultTile.png in Resources */,
 				68E4E59118E9E98500E06DED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +463,7 @@
 				68E4E5AE18E9E98500E06DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68E4E5AF18E9E98500E06DED /* Build configuration list for PBXNativeTarget "CookableTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +472,7 @@
 				68E4E5B118E9E98500E06DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
