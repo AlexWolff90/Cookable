@@ -8,6 +8,7 @@
 
 #import "RNGViewController.h"
 
+
 @interface RNGViewController ()
 
 @end
@@ -32,20 +33,26 @@ label_price_3,label_price_4,label_price_5,stepper_1;
 
 -(IBAction)update1:(UIStepper*)sender
 {
-    label_quant_1.text = [NSString stringWithFormat:@"%f", sender.value];
-    label_price_1.text = [NSString stringWithFormat:@"%f", sender.value * 5];
+    NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+
+    label_quant_1.text = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:sender.value]];
+    label_price_1.text = [NSString stringWithFormat:@"$ %.02f", sender.value * 5];
 }
 
 -(IBAction)update2:(UIStepper*)sender
 {
-    label_quant_2.text = [NSString stringWithFormat:@"%f", sender.value];
-    label_price_2.text = [NSString stringWithFormat:@"%f", sender.value * 4];
+    NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+
+    label_quant_2.text = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:sender.value]];
+    label_price_2.text = [NSString stringWithFormat:@"$ %.02f", sender.value * 4];
 }
 
 -(IBAction)update3:(UIStepper*)sender
 {
-    label_quant_3.text = [NSString stringWithFormat:@"%f", sender.value];
-    label_price_3.text = [NSString stringWithFormat:@"%f", sender.value * 3];
+    NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+
+    label_quant_3.text = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:sender.value]];
+    label_price_3.text = [NSString stringWithFormat:@"$ %.02f", sender.value * 3];
 }
 
 
