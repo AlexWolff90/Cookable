@@ -12,7 +12,10 @@
 
 @end
 
+
+
 @implementation RNGViewController
+@synthesize label_quant_1,label_quant_2,label_quant_3,label_quant_4,label_quant_5;
 
 - (void)viewDidLoad
 {
@@ -24,6 +27,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)update1:(id)sender
+{
+
 }
 
 @end
