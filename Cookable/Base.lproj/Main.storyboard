@@ -294,6 +294,9 @@
                                 <rect key="frame" x="455" y="260" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="tintColor" red="0.64946442839999996" green="0.33995822069999998" blue="0.84739995000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="update1:" destination="V90-IV-Ixw" eventType="valueChanged" id="bWE-wH-ap4"/>
+                                </connections>
                             </stepper>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBD-BE-11l">
                                 <rect key="frame" x="592" y="268" width="10" height="21"/>
@@ -334,15 +337,32 @@
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="UL5-X9-kD8">
                                 <rect key="frame" x="455" y="304" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="update2:" destination="V90-IV-Ixw" eventType="valueChanged" id="glJ-Dt-PiH"/>
+                                </connections>
                             </stepper>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="zzq-uQ-3Ak">
                                 <rect key="frame" x="455" y="345" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="update3:" destination="V90-IV-Ixw" eventType="valueChanged" id="PJb-mY-6g0"/>
+                                </connections>
                             </stepper>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Tci-wO-ke1"/>
+                    <connections>
+                        <outlet property="label_price_1" destination="S77-qE-PAV" id="7lu-VY-vBH"/>
+                        <outlet property="label_price_2" destination="gsH-Vz-Nv6" id="ByU-si-icS"/>
+                        <outlet property="label_price_3" destination="RcV-cT-yZT" id="Ia4-UB-idN"/>
+                        <outlet property="label_quant_1" destination="QBD-BE-11l" id="iYi-LR-BDa"/>
+                        <outlet property="label_quant_2" destination="9or-dD-4mg" id="2YY-FW-Mnw"/>
+                        <outlet property="label_quant_3" destination="5AS-yR-HDt" id="Qwe-wh-VyT"/>
+                        <outlet property="stepper_1" destination="shu-Nr-eTC" id="gbO-5k-pkP"/>
+                        <outlet property="stepper_2" destination="UL5-X9-kD8" id="gmR-ZU-rPz"/>
+                        <outlet property="stepper_3" destination="zzq-uQ-3Ak" id="7A6-Dt-QuB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fKl-HL-qWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
