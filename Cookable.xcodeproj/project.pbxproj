@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0691DFCA18F35BC6004EC9AB /* menu-icon30.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691DFC918F35BC6004EC9AB /* menu-icon30.png */; };
 		68315FFD18F1CEF700808FEA /* CookableResultTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 68315FFC18F1CEF700808FEA /* CookableResultTile.png */; };
 		6831600118F1DDE200808FEA /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 6831600018F1DDE200808FEA /* star.png */; };
 		684B83F518F34E4900615D93 /* RecipeOverviewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684B83F418F34E4900615D93 /* RecipeOverviewTableViewController.m */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0691DFC918F35BC6004EC9AB /* menu-icon30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon30.png"; sourceTree = "<group>"; };
 		68315FFC18F1CEF700808FEA /* CookableResultTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CookableResultTile.png; sourceTree = "<group>"; };
 		6831600018F1DDE200808FEA /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		684B83F318F34E4900615D93 /* RecipeOverviewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeOverviewTableViewController.h; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		68E4E58418E9E98500E06DED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0691DFC918F35BC6004EC9AB /* menu-icon30.png */,
 				684B83FE18F3569300615D93 /* cookinginstructions.png */,
 				684B83FC18F3525D00615D93 /* Greek-Salad-2.jpg */,
 				684B83F618F3522700615D93 /* greek-salad-520-a.jpg */,
@@ -272,6 +275,7 @@
 				68E4E59618E9E98500E06DED /* Images.xcassets in Resources */,
 				68B7F12018F1E078004BCD37 /* icon_431.png in Resources */,
 				68E4E58818E9E98500E06DED /* InfoPlist.strings in Resources */,
+				0691DFCA18F35BC6004EC9AB /* menu-icon30.png in Resources */,
 				684B83FF18F3569300615D93 /* cookinginstructions.png in Resources */,
 				68315FFD18F1CEF700808FEA /* CookableResultTile.png in Resources */,
 				684B83F918F3522700615D93 /* greek-salad-520-a.jpg in Resources */,

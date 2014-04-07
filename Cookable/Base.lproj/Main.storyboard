@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Z4f-yI-KA6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Z4f-yI-KA6">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -82,7 +82,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Yo7-gd-ylO"/>
+                    <navigationItem key="navigationItem" id="Yo7-gd-ylO">
+                        <barButtonItem key="leftBarButtonItem" image="menu-icon30.png" width="100" id="edU-wh-OB9"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="B6N-bg-AcX" id="des-0O-uwH"/>
                     </connections>
@@ -993,6 +995,7 @@
     </scenes>
     <resources>
         <image name="cookinginstructions.png" width="1200" height="1200"/>
+        <image name="menu-icon30.png" width="30" height="30"/>
     </resources>
     <color key="tintColor" red="0.64946442839999996" green="0.33995822069999998" blue="0.84739995000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -1001,6 +1004,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="gZo-jZ-Q0y"/>
+        <segue reference="RRd-FO-KCy"/>
     </inferredMetricsTieBreakers>
 </document>
