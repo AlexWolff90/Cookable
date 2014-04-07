@@ -729,6 +729,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Stg-AK-O1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2926" y="-1396"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.64946442839999996" green="0.33995822069999998" blue="0.84739995000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
