@@ -14,6 +14,7 @@
 		684B83FA18F3522700615D93 /* greek-salad-su-1173749-l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 684B83F718F3522700615D93 /* greek-salad-su-1173749-l.jpg */; };
 		684B83FB18F3522700615D93 /* Greek-Salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 684B83F818F3522700615D93 /* Greek-Salad.jpg */; };
 		684B83FD18F3525D00615D93 /* Greek-Salad-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 684B83FC18F3525D00615D93 /* Greek-Salad-2.jpg */; };
+		684B83FF18F3569300615D93 /* cookinginstructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B83FE18F3569300615D93 /* cookinginstructions.png */; };
 		68B7F12018F1E078004BCD37 /* icon_431.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B7F11F18F1E078004BCD37 /* icon_431.png */; };
 		68B7F12518F1EC5A004BCD37 /* ResultsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B7F12418F1EC5A004BCD37 /* ResultsCollectionViewController.m */; };
 		68B7F12B18F1F941004BCD37 /* RecommendedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B7F12A18F1F941004BCD37 /* RecommendedViewController.m */; };
@@ -52,6 +53,7 @@
 		684B83F718F3522700615D93 /* greek-salad-su-1173749-l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "greek-salad-su-1173749-l.jpg"; sourceTree = "<group>"; };
 		684B83F818F3522700615D93 /* Greek-Salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Greek-Salad.jpg"; sourceTree = "<group>"; };
 		684B83FC18F3525D00615D93 /* Greek-Salad-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Greek-Salad-2.jpg"; sourceTree = "<group>"; };
+		684B83FE18F3569300615D93 /* cookinginstructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookinginstructions.png; sourceTree = "<group>"; };
 		68B7F11F18F1E078004BCD37 /* icon_431.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_431.png; sourceTree = "<group>"; };
 		68B7F12318F1EC5A004BCD37 /* ResultsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsCollectionViewController.h; sourceTree = "<group>"; };
 		68B7F12418F1EC5A004BCD37 /* ResultsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsCollectionViewController.m; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		68E4E58418E9E98500E06DED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				684B83FE18F3569300615D93 /* cookinginstructions.png */,
 				684B83FC18F3525D00615D93 /* Greek-Salad-2.jpg */,
 				684B83F618F3522700615D93 /* greek-salad-520-a.jpg */,
 				684B83F718F3522700615D93 /* greek-salad-su-1173749-l.jpg */,
@@ -269,6 +272,7 @@
 				68E4E59618E9E98500E06DED /* Images.xcassets in Resources */,
 				68B7F12018F1E078004BCD37 /* icon_431.png in Resources */,
 				68E4E58818E9E98500E06DED /* InfoPlist.strings in Resources */,
+				684B83FF18F3569300615D93 /* cookinginstructions.png in Resources */,
 				68315FFD18F1CEF700808FEA /* CookableResultTile.png in Resources */,
 				684B83F918F3522700615D93 /* greek-salad-520-a.jpg in Resources */,
 				68E4E59118E9E98500E06DED /* Main.storyboard in Resources */,
