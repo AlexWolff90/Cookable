@@ -26,6 +26,7 @@ label_price_7,label_price_8,label_price_9,total_price,place_order;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self disableOrEnableConfirm];
 }
 
 - (void)didReceiveMemoryWarning
@@ -123,9 +124,15 @@ label_price_7,label_price_8,label_price_9,total_price,place_order;
 
 }
 
+-(float)getTotalPrice
+{
+    return ([label_quant_9.text floatValue]*3 + [label_quant_8.text floatValue]*5 + [label_quant_7.text floatValue]*4 + [label_quant_6.text floatValue]*7 + [label_quant_5.text floatValue]*5 + [label_quant_4.text floatValue]*6 + [label_quant_3.text floatValue]*3 + [label_quant_2.text floatValue]*4 + [label_quant_1.text floatValue]*5);
+}
+
 -(IBAction)updatePrice
 {
-    total_price.text = [NSString stringWithFormat:@"$ %0.2f", [label_quant_9.text floatValue]*3 + [label_quant_8.text floatValue]*5 + [label_quant_7.text floatValue]*4 + [label_quant_6.text floatValue]*7 + [label_quant_5.text floatValue]*5 + [label_quant_4.text floatValue]*6 + [label_quant_3.text floatValue]*3 + [label_quant_2.text floatValue]*4 + [label_quant_1.text floatValue]*5 ];
+    total_price.text = [NSString stringWithFormat:@"$ %0.2f", [self getTotalPrice]];
+    [self disableOrEnableConfirm];
 
 }
 
@@ -134,18 +141,30 @@ label_price_7,label_price_8,label_price_9,total_price,place_order;
 {
     UIAlertView *confirmation = [[UIAlertView alloc] init];
     [confirmation setTitle:@"Confirm Order"];
-    NSString* message = [NSString stringWithFormat:@"Ready to place you order $%@ ? A receipt will be emailed to you",total_price.text];
-    [confirmation setMessage:message];
+    //NSString* message = [NSString stringWithFormat:@"You order will arrive in 30 minutes. In the meantime, a receipt will be emailed to you at klkh@kmail.com"];
+    [confirmation setMessage:@"You order will arrive in 30-45 minutes. In the meantime, a receipt has been emailed to you at klkh@kmail.com"];
      [confirmation setDelegate:self];
-     [confirmation addButtonWithTitle:@"Cancel"];
-     [confirmation addButtonWithTitle:@"Order"];
+     [confirmation addButtonWithTitle:@"OK"];
      [confirmation show];
 }
 
--(void)alertview:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-
+        [self performSegueWithIdentifier:@"orderIngredientsSegue" sender:self];
 }
+
+-(IBAction)disableOrEnableConfirm
+{
+    if ([self getTotalPrice] == 0.00)
+    {
+        [place_order setEnabled:NO];
+    }
+    else
+    {
+        [place_order setEnabled:YES];
+    }
+}
+
 
 
 @end
