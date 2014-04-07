@@ -132,13 +132,20 @@ label_price_7,label_price_8,label_price_9,total_price,place_order;
 
 -(IBAction)showConfirmation
 {
-    
+    UIAlertView *confirmation = [[UIAlertView alloc] init];
+    [confirmation setTitle:@"Confirm Order"];
+    NSString* message = [NSString stringWithFormat:@"Ready to place you order $%@ ? A receipt will be emailed to you",total_price.text];
+    [confirmation setMessage:message];
+     [confirmation setDelegate:self];
+     [confirmation addButtonWithTitle:@"Cancel"];
+     [confirmation addButtonWithTitle:@"Order"];
+     [confirmation show];
 }
 
+-(void)alertview:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
 
-
-
-
+}
 
 
 @end

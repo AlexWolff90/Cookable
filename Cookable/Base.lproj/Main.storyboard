@@ -963,6 +963,7 @@
                         <outlet property="label_quant_7" destination="oPR-XG-BlU" id="wOQ-9p-lL6"/>
                         <outlet property="label_quant_8" destination="auz-on-hV7" id="OEr-iU-rM7"/>
                         <outlet property="label_quant_9" destination="26R-IP-Uyv" id="7BZ-SP-ziZ"/>
+                        <outlet property="place_order" destination="naS-PO-4hb" id="gHe-Jx-zRq"/>
                         <outlet property="total_price" destination="WhI-Nk-zD2" id="QO0-h2-lNa"/>
                     </connections>
                 </viewController>
