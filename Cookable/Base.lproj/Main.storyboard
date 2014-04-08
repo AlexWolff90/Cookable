@@ -1037,7 +1037,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Chop Tomato" id="qp5-cu-SEY"/>
+                    <navigationItem key="navigationItem" title="Chop Tomato" id="qp5-cu-SEY">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" image="ios7_siri_icon.png" id="owr-WR-5eW"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="video" destination="rAT-2C-fZp" id="vWI-SV-RFw"/>
                     </connections>
@@ -1049,6 +1052,7 @@
     </scenes>
     <resources>
         <image name="cookinginstructions.png" width="1200" height="1200"/>
+        <image name="ios7_siri_icon.png" width="30" height="30"/>
         <image name="menu-icon30.png" width="30" height="30"/>
     </resources>
     <color key="tintColor" red="0.64946442839999996" green="0.33995822069999998" blue="0.84739995000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1058,6 +1062,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="rVl-ri-XXp"/>
+        <segue reference="RRd-FO-KCy"/>
     </inferredMetricsTieBreakers>
 </document>
