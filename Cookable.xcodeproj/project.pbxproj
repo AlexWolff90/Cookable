@@ -16,6 +16,7 @@
 		684B83FB18F3522700615D93 /* Greek-Salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 684B83F818F3522700615D93 /* Greek-Salad.jpg */; };
 		684B83FD18F3525D00615D93 /* Greek-Salad-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 684B83FC18F3525D00615D93 /* Greek-Salad-2.jpg */; };
 		684B83FF18F3569300615D93 /* cookinginstructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B83FE18F3569300615D93 /* cookinginstructions.png */; };
+		684B840118F389B100615D93 /* ios7_siri_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B840018F389B100615D93 /* ios7_siri_icon.png */; };
 		68B7F12018F1E078004BCD37 /* icon_431.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B7F11F18F1E078004BCD37 /* icon_431.png */; };
 		68B7F12518F1EC5A004BCD37 /* ResultsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B7F12418F1EC5A004BCD37 /* ResultsCollectionViewController.m */; };
 		68B7F12B18F1F941004BCD37 /* RecommendedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B7F12A18F1F941004BCD37 /* RecommendedViewController.m */; };
@@ -56,6 +57,7 @@
 		684B83F818F3522700615D93 /* Greek-Salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Greek-Salad.jpg"; sourceTree = "<group>"; };
 		684B83FC18F3525D00615D93 /* Greek-Salad-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Greek-Salad-2.jpg"; sourceTree = "<group>"; };
 		684B83FE18F3569300615D93 /* cookinginstructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookinginstructions.png; sourceTree = "<group>"; };
+		684B840018F389B100615D93 /* ios7_siri_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7_siri_icon.png; sourceTree = "<group>"; };
 		68B7F11F18F1E078004BCD37 /* icon_431.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_431.png; sourceTree = "<group>"; };
 		68B7F12318F1EC5A004BCD37 /* ResultsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsCollectionViewController.h; sourceTree = "<group>"; };
 		68B7F12418F1EC5A004BCD37 /* ResultsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsCollectionViewController.m; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		68E4E58418E9E98500E06DED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				684B840018F389B100615D93 /* ios7_siri_icon.png */,
 				0691DFC918F35BC6004EC9AB /* menu-icon30.png */,
 				684B83FE18F3569300615D93 /* cookinginstructions.png */,
 				684B83FC18F3525D00615D93 /* Greek-Salad-2.jpg */,
@@ -282,6 +285,7 @@
 				68E4E59118E9E98500E06DED /* Main.storyboard in Resources */,
 				684B83FA18F3522700615D93 /* greek-salad-su-1173749-l.jpg in Resources */,
 				6831600118F1DDE200808FEA /* star.png in Resources */,
+				684B840118F389B100615D93 /* ios7_siri_icon.png in Resources */,
 				684B83FD18F3525D00615D93 /* Greek-Salad-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
