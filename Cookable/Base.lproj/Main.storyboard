@@ -610,8 +610,14 @@
                     <navigationItem key="navigationItem" title="Recipe Overview" id="Tet-nx-zBd"/>
                     <connections>
                         <outlet property="lemonLabel" destination="bpz-TP-1Ko" id="NeO-a1-ENz"/>
+                        <outlet property="lemonLeftButton" destination="mxc-5u-Wxj" id="YhX-3b-KC4"/>
+                        <outlet property="lemonRightButton" destination="miJ-0X-Gnq" id="L0E-T9-GJS"/>
                         <outlet property="oliveLabel" destination="7HU-aM-49m" id="Vcz-fQ-oDo"/>
+                        <outlet property="oliveLeftButton" destination="A9k-z5-jUP" id="wyX-Vq-RBe"/>
+                        <outlet property="oliveRightButton" destination="7uP-lt-1Wj" id="XQI-Q8-CcS"/>
                         <outlet property="onionLabel" destination="Qsq-37-oeR" id="iec-t5-L7B"/>
+                        <outlet property="onionLeftButton" destination="EAy-U2-1nW" id="gqh-vW-D8L"/>
+                        <outlet property="onionRightButton" destination="5nM-8R-eKm" id="9zK-0P-APx"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pgx-ba-kFM" userLabel="First Responder" sceneMemberID="firstResponder"/>

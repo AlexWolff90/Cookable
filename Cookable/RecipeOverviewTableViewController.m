@@ -18,6 +18,9 @@
 @synthesize onionLabel;
 @synthesize oliveLabel;
 @synthesize lemonLabel;
+@synthesize onionLeftButton,onionRightButton;
+@synthesize oliveLeftButton,oliveRightButton;
+@synthesize lemonLeftButton,lemonRightButton;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -41,6 +44,13 @@
     // Initialize recipe image array
     recipeImages = [NSArray arrayWithObjects:@"Greek-Salad.jpg", @"greek-salad-su-1173749-l.jpg",
                     @"greek-salad-520-a.jpg", @"Greek-Salad-2.jpg", nil];
+    
+    onionLeftButton.enabled = true;
+    onionRightButton.enabled = false;
+    oliveLeftButton.enabled = true;
+    oliveRightButton.enabled = false;
+    lemonLeftButton.enabled = true;
+    lemonRightButton.enabled = false;
   
 }
 
@@ -150,47 +160,71 @@
 
 - (IBAction)onionLeft:(UISwipeGestureRecognizer *)sender {
     onionLabel.text = @"1/2 Small Green Onion";
+    onionLeftButton.enabled = false;
+    onionRightButton.enabled = true;
 }
 
 - (IBAction)onionRightB:(UIButton *)sender {
     onionLabel.text = @"1/2 Small Red Onion";
+    onionLeftButton.enabled = true;
+    onionRightButton.enabled = false;
 }
 
 - (IBAction)onionLeftB:(UIButton *)sender {
     onionLabel.text = @"1/2 Small Green Onion";
+    onionLeftButton.enabled = false;
+    onionRightButton.enabled = true;
 }
 
 - (IBAction)onionRight:(UISwipeGestureRecognizer *)sender {
     onionLabel.text = @"1/2 Small Red Onion";
+    onionLeftButton.enabled = true;
+    onionRightButton.enabled = false;
 }
 - (IBAction)oliveRight:(UISwipeGestureRecognizer *)sender {
     oliveLabel.text = @"1 Tablespoon Olive Oil";
+    oliveLeftButton.enabled = true;
+    oliveRightButton.enabled = false;
 }
 
 - (IBAction)oliveLeft:(UISwipeGestureRecognizer *)sender {
     oliveLabel.text = @"1 Tablespoon Grapeseed Oil";
+    oliveLeftButton.enabled = false;
+    oliveRightButton.enabled = true;
 }
 
 - (IBAction)oliveRightB:(UIButton *)sender {
     oliveLabel.text = @"1 Tablespoon Olive Oil";
+    oliveLeftButton.enabled = true;
+    oliveRightButton.enabled = false;
 }
 
 - (IBAction)oliveLeftB:(UIButton *)sender {
     oliveLabel.text = @"1 Tablespoon Grapeseed Oil";
+    oliveLeftButton.enabled = false;
+    oliveRightButton.enabled = true;
 }
 - (IBAction)lemonRight:(UISwipeGestureRecognizer *)sender {
     lemonLabel.text = @"1 Teaspoon Lemon Juice";
+    lemonLeftButton.enabled = true;
+    lemonRightButton.enabled = false;
 }
 
 - (IBAction)lemonLeft:(UISwipeGestureRecognizer *)sender {
     lemonLabel.text = @"1 Teaspoon Lime Juice";
+    lemonLeftButton.enabled = false;
+    lemonRightButton.enabled = true;
 }
 
 - (IBAction)lemonLeftB:(UIButton *)sender {
     lemonLabel.text = @"1 Teaspoon Lime Juice";
+    lemonLeftButton.enabled = false;
+    lemonRightButton.enabled = true;
 }
 
 - (IBAction)lemonRightB:(UIButton *)sender {
     lemonLabel.text = @"1 Teaspoon Lemon Juice";
+    lemonLeftButton.enabled = true;
+    lemonRightButton.enabled = false;
 }
 @end
