@@ -62,6 +62,8 @@
 
 -(IBAction)updatePrice;
 -(IBAction)showConfirmation;
+-(IBAction)disableOrEnableConfirm;
+
 
 
 
