@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Z4f-yI-KA6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Z4f-yI-KA6">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -419,6 +419,9 @@
                                                     <state key="normal" title="Details">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="Zy8-wE-a2Q" kind="push" id="mg2-D8-tIh"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -972,10 +975,10 @@
             </objects>
             <point key="canvasLocation" x="734" y="-2660"/>
         </scene>
-        <!--View Controller-->
+        <!--Step View Controller - Chop Tomato-->
         <scene sceneID="oLz-Sz-pmy">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Zy8-wE-a2Q" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Zy8-wE-a2Q" customClass="StepViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zo6-1c-Cyo"/>
                         <viewControllerLayoutGuide type="bottom" id="GZT-Hb-RLB"/>
@@ -983,9 +986,32 @@
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="LTi-uY-FXH">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAT-2C-fZp">
+                                <rect key="frame" x="20" y="82" width="728" height="400"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5Q-bd-kfw">
+                                <rect key="frame" x="20" y="500" width="395" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">1. Remove stem with fingers
+2. Place on cutting board and     slice in half horizontally
+3. Cut each half into horizontal     slices
+4. Stack slices and cut vertical     slices
+5. Turn stack 90 degreess and cut     vertical slices</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Chop Tomato" id="qp5-cu-SEY"/>
+                    <connections>
+                        <outlet property="video" destination="rAT-2C-fZp" id="vWI-SV-RFw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Stg-AK-O1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

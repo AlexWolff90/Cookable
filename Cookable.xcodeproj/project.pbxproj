@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0691DFCA18F35BC6004EC9AB /* menu-icon30.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691DFC918F35BC6004EC9AB /* menu-icon30.png */; };
+		0691DFCD18F36B39004EC9AB /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691DFCC18F36B39004EC9AB /* StepViewController.m */; };
 		68315FFD18F1CEF700808FEA /* CookableResultTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 68315FFC18F1CEF700808FEA /* CookableResultTile.png */; };
 		6831600118F1DDE200808FEA /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 6831600018F1DDE200808FEA /* star.png */; };
 		684B83F518F34E4900615D93 /* RecipeOverviewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684B83F418F34E4900615D93 /* RecipeOverviewTableViewController.m */; };
@@ -47,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		0691DFC918F35BC6004EC9AB /* menu-icon30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon30.png"; sourceTree = "<group>"; };
+		0691DFCB18F36B39004EC9AB /* StepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepViewController.h; sourceTree = "<group>"; };
+		0691DFCC18F36B39004EC9AB /* StepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepViewController.m; sourceTree = "<group>"; };
 		68315FFC18F1CEF700808FEA /* CookableResultTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CookableResultTile.png; sourceTree = "<group>"; };
 		6831600018F1DDE200808FEA /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		684B83F318F34E4900615D93 /* RecipeOverviewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeOverviewTableViewController.h; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 				68E4E58C18E9E98500E06DED /* RNGAppDelegate.h */,
 				68E4E58D18E9E98500E06DED /* RNGAppDelegate.m */,
 				68E4E58F18E9E98500E06DED /* Main.storyboard */,
+				0691DFCB18F36B39004EC9AB /* StepViewController.h */,
+				0691DFCC18F36B39004EC9AB /* StepViewController.m */,
 				684B83F318F34E4900615D93 /* RecipeOverviewTableViewController.h */,
 				684B83F418F34E4900615D93 /* RecipeOverviewTableViewController.m */,
 				68B7F12918F1F941004BCD37 /* RecommendedViewController.h */,
@@ -303,6 +308,7 @@
 			files = (
 				68E4E58E18E9E98500E06DED /* RNGAppDelegate.m in Sources */,
 				68E4E58A18E9E98500E06DED /* main.m in Sources */,
+				0691DFCD18F36B39004EC9AB /* StepViewController.m in Sources */,
 				68B7F12B18F1F941004BCD37 /* RecommendedViewController.m in Sources */,
 				68E4E59418E9E98500E06DED /* RNGViewController.m in Sources */,
 				684B83F518F34E4900615D93 /* RecipeOverviewTableViewController.m in Sources */,
