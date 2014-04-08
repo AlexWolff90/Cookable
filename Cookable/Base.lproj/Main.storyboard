@@ -291,17 +291,37 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1/2 Small Red Onion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsq-37-oeR">
-                                                    <rect key="frame" x="194" y="11" width="159" height="21"/>
+                                                    <rect key="frame" x="194" y="11" width="235" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAy-U2-1nW">
+                                                    <rect key="frame" x="129" y="-26" width="71" height="96"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" image="icon-ios7-arrow-left-64.png">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="onionLeftB:" destination="rCX-B8-iCD" eventType="touchUpInside" id="f9c-gt-YMT"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nM-8R-eKm">
+                                                    <rect key="frame" x="582" y="-14" width="100" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" image="icon-ios7-arrow-right-64.png">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="onionRightB:" destination="rCX-B8-iCD" eventType="touchUpInside" id="L5k-eX-xfo"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <gestureRecognizers/>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="5lh-rX-Ava" appends="YES" id="HkV-YC-YjK"/>
-                                            <outletCollection property="gestureRecognizers" destination="FeT-Vv-CQb" appends="YES" id="byt-T7-MHY"/>
+                                            <outletCollection property="gestureRecognizers" destination="qQs-rI-4DM" appends="YES" id="0pA-H9-JNt"/>
+                                            <outletCollection property="gestureRecognizers" destination="bvw-EC-lPR" appends="YES" id="BsD-eh-B0w"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="DqZ-T1-LnG">
@@ -344,13 +364,38 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Tablespoon Olive Oil" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HU-aM-49m">
-                                                    <rect key="frame" x="194" y="11" width="172" height="21"/>
+                                                    <rect key="frame" x="194" y="11" width="255" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9k-z5-jUP">
+                                                    <rect key="frame" x="132" y="-26" width="71" height="96"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" image="icon-ios7-arrow-left-64.png">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="oliveLeftB:" destination="rCX-B8-iCD" eventType="touchUpInside" id="6Xa-pC-UsE"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7uP-lt-1Wj">
+                                                    <rect key="frame" x="583" y="-14" width="100" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" image="icon-ios7-arrow-right-64.png">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="oliveRightB:" destination="rCX-B8-iCD" eventType="touchUpInside" id="lbk-is-wvp"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="UWr-NC-MkS" appends="YES" id="8db-w7-hMT"/>
+                                            <outletCollection property="gestureRecognizers" destination="7bm-OL-nYn" appends="YES" id="Qe3-e7-chL"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="D5T-4v-EmX">
                                         <rect key="frame" x="0.0" y="602" width="768" height="44"/>
@@ -360,13 +405,38 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Teaspoon Lemon Juice" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpz-TP-1Ko">
-                                                    <rect key="frame" x="195" y="11" width="192" height="21"/>
+                                                    <rect key="frame" x="195" y="11" width="271" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxc-5u-Wxj">
+                                                    <rect key="frame" x="133" y="-26" width="71" height="96"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" image="icon-ios7-arrow-left-64.png">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="lemonLeftB:" destination="rCX-B8-iCD" eventType="touchUpInside" id="ucu-yT-iJq"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="miJ-0X-Gnq">
+                                                    <rect key="frame" x="584" y="-14" width="100" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" image="icon-ios7-arrow-right-64.png">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="lemonRightB:" destination="rCX-B8-iCD" eventType="touchUpInside" id="U6c-ub-ayI"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Iul-gy-zmX" appends="YES" id="1Tj-Tx-fAB"/>
+                                            <outletCollection property="gestureRecognizers" destination="H6z-jN-Jnr" appends="YES" id="zcw-gG-gGR"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="I6G-5g-K1P">
                                         <rect key="frame" x="0.0" y="646" width="768" height="44"/>
@@ -539,30 +609,42 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Recipe Overview" id="Tet-nx-zBd"/>
                     <connections>
-                        <outlet property="ingredients" destination="4Vd-e7-BKb" id="H1V-vm-HYH"/>
-                        <outlet property="lemonLabel" destination="bpz-TP-1Ko" id="HA0-vt-JMV"/>
-                        <outlet property="lemonPicker" destination="Tvs-cO-9o8" id="TgT-1e-v7m"/>
-                        <outlet property="oliveLabel" destination="7HU-aM-49m" id="Kds-yM-3GF"/>
-                        <outlet property="olivePicker" destination="Tvs-cO-9o8" id="5Zh-V4-OjS"/>
-                        <outlet property="onionLabel" destination="Qsq-37-oeR" id="n38-WA-n7d"/>
-                        <outlet property="onionPicker" destination="Tvs-cO-9o8" id="wm1-1j-uqx"/>
+                        <outlet property="lemonLabel" destination="bpz-TP-1Ko" id="NeO-a1-ENz"/>
+                        <outlet property="oliveLabel" destination="7HU-aM-49m" id="Vcz-fQ-oDo"/>
+                        <outlet property="onionLabel" destination="Qsq-37-oeR" id="iec-t5-L7B"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pgx-ba-kFM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <pickerView contentMode="scaleToFill" id="Tvs-cO-9o8">
-                    <rect key="frame" x="0.0" y="0.0" width="768" height="216"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                <swipeGestureRecognizer direction="right" id="qQs-rI-4DM">
                     <connections>
-                        <outlet property="dataSource" destination="rCX-B8-iCD" id="4Tr-g2-v30"/>
-                        <outlet property="delegate" destination="rCX-B8-iCD" id="Hb9-t8-J0k"/>
-                    </connections>
-                </pickerView>
-                <swipeGestureRecognizer direction="right" id="5lh-rX-Ava">
-                    <connections>
-                        <action selector="onionRight:" destination="rCX-B8-iCD" id="vLS-Kr-aUX"/>
+                        <action selector="onionRight:" destination="rCX-B8-iCD" id="nWn-yp-OWm"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="FeT-Vv-CQb"/>
+                <swipeGestureRecognizer direction="left" id="bvw-EC-lPR">
+                    <connections>
+                        <action selector="onionLeft:" destination="rCX-B8-iCD" id="kvr-V8-rfG"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="UWr-NC-MkS">
+                    <connections>
+                        <action selector="oliveRight:" destination="rCX-B8-iCD" id="dOW-rd-tbm"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="7bm-OL-nYn">
+                    <connections>
+                        <action selector="oliveLeft:" destination="rCX-B8-iCD" id="xiz-qD-b4G"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Iul-gy-zmX">
+                    <connections>
+                        <action selector="lemonRight:" destination="rCX-B8-iCD" id="A6u-hg-w8p"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="H6z-jN-Jnr">
+                    <connections>
+                        <action selector="lemonLeft:" destination="rCX-B8-iCD" id="uSG-La-hup"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1895" y="-1396"/>
         </scene>
@@ -1052,6 +1134,8 @@
     </scenes>
     <resources>
         <image name="cookinginstructions.png" width="1200" height="1200"/>
+        <image name="icon-ios7-arrow-left-64.png" width="64" height="64"/>
+        <image name="icon-ios7-arrow-right-64.png" width="64" height="64"/>
         <image name="ios7_siri_icon.png" width="30" height="30"/>
         <image name="menu-icon30.png" width="30" height="30"/>
     </resources>
@@ -1062,6 +1146,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="RRd-FO-KCy"/>
+        <segue reference="gZo-jZ-Q0y"/>
     </inferredMetricsTieBreakers>
 </document>
