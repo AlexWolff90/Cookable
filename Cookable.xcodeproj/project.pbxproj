@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		067E5AE418F4E02500CBE994 /* mix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5ADE18F4E02500CBE994 /* mix.jpg */; };
-		067E5AE518F4E02500CBE994 /* olive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5ADF18F4E02500CBE994 /* olive.jpg */; };
-		067E5AE618F4E02500CBE994 /* onion1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AE018F4E02500CBE994 /* onion1.jpg */; };
-		067E5AE718F4E02500CBE994 /* onion2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AE118F4E02500CBE994 /* onion2.jpg */; };
-		067E5AE818F4E02500CBE994 /* tomato1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AE218F4E02500CBE994 /* tomato1.jpg */; };
-		067E5AE918F4E02500CBE994 /* tomato2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AE318F4E02500CBE994 /* tomato2.jpg */; };
-		067E5AEB18F4E02E00CBE994 /* cucumber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AEA18F4E02E00CBE994 /* cucumber.jpg */; };
+		067E5AF818F4E8D200CBE994 /* mix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF218F4E8D200CBE994 /* mix.jpg */; };
+		067E5AF918F4E8D200CBE994 /* olive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF318F4E8D200CBE994 /* olive.jpg */; };
+		067E5AFA18F4E8D200CBE994 /* onion1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF418F4E8D200CBE994 /* onion1.jpg */; };
+		067E5AFB18F4E8D200CBE994 /* onion2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF518F4E8D200CBE994 /* onion2.jpg */; };
+		067E5AFC18F4E8D200CBE994 /* tomato1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF618F4E8D200CBE994 /* tomato1.jpg */; };
+		067E5AFD18F4E8D200CBE994 /* tomato2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF718F4E8D200CBE994 /* tomato2.jpg */; };
+		067E5AFF18F4E8DA00CBE994 /* cucumber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AFE18F4E8DA00CBE994 /* cucumber.jpg */; };
 		0691DFCA18F35BC6004EC9AB /* menu-icon30.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691DFC918F35BC6004EC9AB /* menu-icon30.png */; };
 		0691DFCD18F36B39004EC9AB /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691DFCC18F36B39004EC9AB /* StepViewController.m */; };
 		06CEB04218F4B9E700EDB5F1 /* StepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CEB04118F4B9E700EDB5F1 /* StepsViewController.m */; };
@@ -60,13 +60,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		067E5ADE18F4E02500CBE994 /* mix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mix.jpg; path = "../../../Cornell 13-14/Spring/User Interfaces/mix.jpg"; sourceTree = "<group>"; };
-		067E5ADF18F4E02500CBE994 /* olive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = olive.jpg; path = "../../../Cornell 13-14/Spring/User Interfaces/olive.jpg"; sourceTree = "<group>"; };
-		067E5AE018F4E02500CBE994 /* onion1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = onion1.jpg; path = "../../../Cornell 13-14/Spring/User Interfaces/onion1.jpg"; sourceTree = "<group>"; };
-		067E5AE118F4E02500CBE994 /* onion2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = onion2.jpg; path = "../../../Cornell 13-14/Spring/User Interfaces/onion2.jpg"; sourceTree = "<group>"; };
-		067E5AE218F4E02500CBE994 /* tomato1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tomato1.jpg; path = "../../../Cornell 13-14/Spring/User Interfaces/tomato1.jpg"; sourceTree = "<group>"; };
-		067E5AE318F4E02500CBE994 /* tomato2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tomato2.jpg; path = "../../../Cornell 13-14/Spring/User Interfaces/tomato2.jpg"; sourceTree = "<group>"; };
-		067E5AEA18F4E02E00CBE994 /* cucumber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cucumber.jpg; path = "../../../Cornell 13-14/Spring/User Interfaces/cucumber.jpg"; sourceTree = "<group>"; };
+		067E5AF218F4E8D200CBE994 /* mix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mix.jpg; sourceTree = "<group>"; };
+		067E5AF318F4E8D200CBE994 /* olive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = olive.jpg; sourceTree = "<group>"; };
+		067E5AF418F4E8D200CBE994 /* onion1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onion1.jpg; sourceTree = "<group>"; };
+		067E5AF518F4E8D200CBE994 /* onion2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onion2.jpg; sourceTree = "<group>"; };
+		067E5AF618F4E8D200CBE994 /* tomato1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomato1.jpg; sourceTree = "<group>"; };
+		067E5AF718F4E8D200CBE994 /* tomato2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomato2.jpg; sourceTree = "<group>"; };
+		067E5AFE18F4E8DA00CBE994 /* cucumber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cucumber.jpg; sourceTree = "<group>"; };
 		0691DFC918F35BC6004EC9AB /* menu-icon30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon30.png"; sourceTree = "<group>"; };
 		0691DFCB18F36B39004EC9AB /* StepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepViewController.h; sourceTree = "<group>"; };
 		0691DFCC18F36B39004EC9AB /* StepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepViewController.m; sourceTree = "<group>"; };
@@ -193,13 +193,13 @@
 		68E4E58418E9E98500E06DED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				067E5AEA18F4E02E00CBE994 /* cucumber.jpg */,
-				067E5ADE18F4E02500CBE994 /* mix.jpg */,
-				067E5ADF18F4E02500CBE994 /* olive.jpg */,
-				067E5AE018F4E02500CBE994 /* onion1.jpg */,
-				067E5AE118F4E02500CBE994 /* onion2.jpg */,
-				067E5AE218F4E02500CBE994 /* tomato1.jpg */,
-				067E5AE318F4E02500CBE994 /* tomato2.jpg */,
+				067E5AFE18F4E8DA00CBE994 /* cucumber.jpg */,
+				067E5AF218F4E8D200CBE994 /* mix.jpg */,
+				067E5AF318F4E8D200CBE994 /* olive.jpg */,
+				067E5AF418F4E8D200CBE994 /* onion1.jpg */,
+				067E5AF518F4E8D200CBE994 /* onion2.jpg */,
+				067E5AF618F4E8D200CBE994 /* tomato1.jpg */,
+				067E5AF718F4E8D200CBE994 /* tomato2.jpg */,
 				682859D218F4B6A000675186 /* icon-ios7-arrow-left-64.png */,
 				682859D318F4B6A000675186 /* icon-ios7-arrow-right-64.png */,
 				682859CA18F4B56100675186 /* icon-ios7-arrow-left-512.png */,
@@ -318,28 +318,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				684B83FB18F3522700615D93 /* Greek-Salad.jpg in Resources */,
-				067E5AE818F4E02500CBE994 /* tomato1.jpg in Resources */,
+				067E5AFC18F4E8D200CBE994 /* tomato1.jpg in Resources */,
 				68E4E59618E9E98500E06DED /* Images.xcassets in Resources */,
 				682859CD18F4B56100675186 /* icon-ios7-arrow-right-512.png in Resources */,
 				68B7F12018F1E078004BCD37 /* icon_431.png in Resources */,
 				68E4E58818E9E98500E06DED /* InfoPlist.strings in Resources */,
-				067E5AEB18F4E02E00CBE994 /* cucumber.jpg in Resources */,
 				0691DFCA18F35BC6004EC9AB /* menu-icon30.png in Resources */,
 				682859D518F4B6A000675186 /* icon-ios7-arrow-right-64.png in Resources */,
+				067E5AFB18F4E8D200CBE994 /* onion2.jpg in Resources */,
+				067E5AFF18F4E8DA00CBE994 /* cucumber.jpg in Resources */,
 				684B83FF18F3569300615D93 /* cookinginstructions.png in Resources */,
 				682859CC18F4B56100675186 /* icon-ios7-arrow-left-512.png in Resources */,
 				68315FFD18F1CEF700808FEA /* CookableResultTile.png in Resources */,
 				684B83F918F3522700615D93 /* greek-salad-520-a.jpg in Resources */,
-				067E5AE718F4E02500CBE994 /* onion2.jpg in Resources */,
 				68E4E59118E9E98500E06DED /* Main.storyboard in Resources */,
-				067E5AE918F4E02500CBE994 /* tomato2.jpg in Resources */,
+				067E5AF818F4E8D200CBE994 /* mix.jpg in Resources */,
+				067E5AFA18F4E8D200CBE994 /* onion1.jpg in Resources */,
 				684B83FA18F3522700615D93 /* greek-salad-su-1173749-l.jpg in Resources */,
-				067E5AE518F4E02500CBE994 /* olive.jpg in Resources */,
 				6831600118F1DDE200808FEA /* star.png in Resources */,
 				682859D418F4B6A000675186 /* icon-ios7-arrow-left-64.png in Resources */,
+				067E5AFD18F4E8D200CBE994 /* tomato2.jpg in Resources */,
+				067E5AF918F4E8D200CBE994 /* olive.jpg in Resources */,
 				684B840118F389B100615D93 /* ios7_siri_icon.png in Resources */,
-				067E5AE618F4E02500CBE994 /* onion1.jpg in Resources */,
-				067E5AE418F4E02500CBE994 /* mix.jpg in Resources */,
 				684B83FD18F3525D00615D93 /* Greek-Salad-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
