@@ -27,8 +27,19 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSString *code = @"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/T0xVthFSJBg\" frameborder=\"0\" allowfullscreen></iframe>";
-    [[self video] loadHTMLString:code baseURL:[NSURL URLWithString:@"http://www.youtube.com"]];
+    if (self.pageIndex == 5) {
+        self.finishLabel.hidden = NO;
+        self.homeButton.enabled = YES;
+        self.homeButton.hidden = NO;
+    } else {
+        [self.video loadHTMLString:self.videoCode baseURL:[NSURL URLWithString:@"http://www.youtube.com"]];
+        self.titleLabel.text = self.titleText;
+        self.textView.text = self.stepText;
+        self.image1.image = [UIImage imageNamed:self.imageFile1];
+        if([self.imageFile2 length] != 0) {
+            self.image2.image = [UIImage imageNamed:self.imageFile2];
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning
