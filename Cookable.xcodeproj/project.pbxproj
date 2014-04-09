@@ -14,9 +14,9 @@
 		067E5AFC18F4E8D200CBE994 /* tomato1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF618F4E8D200CBE994 /* tomato1.jpg */; };
 		067E5AFD18F4E8D200CBE994 /* tomato2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF718F4E8D200CBE994 /* tomato2.jpg */; };
 		067E5AFF18F4E8DA00CBE994 /* cucumber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AFE18F4E8DA00CBE994 /* cucumber.jpg */; };
+		067E5B0218F4E9E600CBE994 /* StepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067E5B0118F4E9E600CBE994 /* StepsViewController.m */; };
 		0691DFCA18F35BC6004EC9AB /* menu-icon30.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691DFC918F35BC6004EC9AB /* menu-icon30.png */; };
 		0691DFCD18F36B39004EC9AB /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691DFCC18F36B39004EC9AB /* StepViewController.m */; };
-		06CEB04218F4B9E700EDB5F1 /* StepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CEB04118F4B9E700EDB5F1 /* StepsViewController.m */; };
 		682859CC18F4B56100675186 /* icon-ios7-arrow-left-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 682859CA18F4B56100675186 /* icon-ios7-arrow-left-512.png */; };
 		682859CD18F4B56100675186 /* icon-ios7-arrow-right-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 682859CB18F4B56100675186 /* icon-ios7-arrow-right-512.png */; };
 		682859D418F4B6A000675186 /* icon-ios7-arrow-left-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 682859D218F4B6A000675186 /* icon-ios7-arrow-left-64.png */; };
@@ -67,11 +67,11 @@
 		067E5AF618F4E8D200CBE994 /* tomato1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomato1.jpg; sourceTree = "<group>"; };
 		067E5AF718F4E8D200CBE994 /* tomato2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomato2.jpg; sourceTree = "<group>"; };
 		067E5AFE18F4E8DA00CBE994 /* cucumber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cucumber.jpg; sourceTree = "<group>"; };
+		067E5B0018F4E9E600CBE994 /* StepsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsViewController.h; sourceTree = "<group>"; };
+		067E5B0118F4E9E600CBE994 /* StepsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsViewController.m; sourceTree = "<group>"; };
 		0691DFC918F35BC6004EC9AB /* menu-icon30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon30.png"; sourceTree = "<group>"; };
 		0691DFCB18F36B39004EC9AB /* StepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepViewController.h; sourceTree = "<group>"; };
 		0691DFCC18F36B39004EC9AB /* StepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepViewController.m; sourceTree = "<group>"; };
-		06CEB04018F4B9E700EDB5F1 /* StepsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StepsViewController.h; path = ../StepsViewController.h; sourceTree = "<group>"; };
-		06CEB04118F4B9E700EDB5F1 /* StepsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StepsViewController.m; path = ../StepsViewController.m; sourceTree = "<group>"; };
 		682859CA18F4B56100675186 /* icon-ios7-arrow-left-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-left-512.png"; sourceTree = "<group>"; };
 		682859CB18F4B56100675186 /* icon-ios7-arrow-right-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-right-512.png"; sourceTree = "<group>"; };
 		682859D218F4B6A000675186 /* icon-ios7-arrow-left-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-left-64.png"; sourceTree = "<group>"; };
@@ -169,8 +169,8 @@
 		68E4E58318E9E98500E06DED /* Cookable */ = {
 			isa = PBXGroup;
 			children = (
-				06CEB04018F4B9E700EDB5F1 /* StepsViewController.h */,
-				06CEB04118F4B9E700EDB5F1 /* StepsViewController.m */,
+				067E5B0018F4E9E600CBE994 /* StepsViewController.h */,
+				067E5B0118F4E9E600CBE994 /* StepsViewController.m */,
 				68E4E58C18E9E98500E06DED /* RNGAppDelegate.h */,
 				68E4E58D18E9E98500E06DED /* RNGAppDelegate.m */,
 				68E4E58F18E9E98500E06DED /* Main.storyboard */,
@@ -365,7 +365,7 @@
 				68B7F12B18F1F941004BCD37 /* RecommendedViewController.m in Sources */,
 				68E4E59418E9E98500E06DED /* RNGViewController.m in Sources */,
 				684B83F518F34E4900615D93 /* RecipeOverviewTableViewController.m in Sources */,
-				06CEB04218F4B9E700EDB5F1 /* StepsViewController.m in Sources */,
+				067E5B0218F4E9E600CBE994 /* StepsViewController.m in Sources */,
 				68B7F12518F1EC5A004BCD37 /* ResultsCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
