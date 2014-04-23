@@ -30,8 +30,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     // Initialize recipe image array
-    recipeImages = [NSArray arrayWithObjects:@"GreekSaladTile.jpg", @"AvocadoTile.jpg", @"CaesarSaladTile.jpg",
-                    @"EggSaladTile.jpg", @"ShrimpSaladTile.jpg", @"TunaSaladTile.jpg", nil];
+    recipeImages = [NSArray arrayWithObjects:@"ChickenTile.jpg", @"CaesarTile.jpg", @"CornTile.jpg",
+                    @"PotatoTile.jpg", @"GreekTile.jpg", @"AppleColeslawTile.jpg", nil];
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {

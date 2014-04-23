@@ -30,11 +30,15 @@
 		684B83FD18F3525D00615D93 /* Greek-Salad-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 684B83FC18F3525D00615D93 /* Greek-Salad-2.jpg */; };
 		684B83FF18F3569300615D93 /* cookinginstructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B83FE18F3569300615D93 /* cookinginstructions.png */; };
 		684B840118F389B100615D93 /* ios7_siri_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B840018F389B100615D93 /* ios7_siri_icon.png */; };
+		688551FA19072FDB00CEEC02 /* CornTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 688551F919072FDB00CEEC02 /* CornTile.jpg */; };
+		688551FC1907327200CEEC02 /* PotatoTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 688551FB1907327200CEEC02 /* PotatoTile.jpg */; };
+		688551FE1907327A00CEEC02 /* CaesarTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 688551FD1907327A00CEEC02 /* CaesarTile.jpg */; };
+		688552021907332600CEEC02 /* GreekTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 688552011907332600CEEC02 /* GreekTile.jpg */; };
+		68855204190734A400CEEC02 /* ChickenTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68855203190734A400CEEC02 /* ChickenTile.jpg */; };
+		68855206190734C700CEEC02 /* AppleColeslawTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68855205190734C700CEEC02 /* AppleColeslawTile.jpg */; };
 		68B7F12018F1E078004BCD37 /* icon_431.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B7F11F18F1E078004BCD37 /* icon_431.png */; };
 		68B7F12518F1EC5A004BCD37 /* ResultsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B7F12418F1EC5A004BCD37 /* ResultsCollectionViewController.m */; };
 		68B7F12B18F1F941004BCD37 /* RecommendedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B7F12A18F1F941004BCD37 /* RecommendedViewController.m */; };
-		68CD175B18FC864E006BEEE7 /* AppleColeslawTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68CD175318FC864E006BEEE7 /* AppleColeslawTile.jpg */; };
-		68CD175C18FC864E006BEEE7 /* BB&CornTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68CD175418FC864E006BEEE7 /* BB&CornTile.jpg */; };
 		68CD175D18FC864E006BEEE7 /* CaesarSaladTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68CD175518FC864E006BEEE7 /* CaesarSaladTile.jpg */; };
 		68CD175E18FC864E006BEEE7 /* ChickenSaladTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68CD175618FC864E006BEEE7 /* ChickenSaladTile.jpg */; };
 		68CD175F18FC864E006BEEE7 /* FruitSaladTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68CD175718FC864E006BEEE7 /* FruitSaladTile.jpg */; };
@@ -97,13 +101,17 @@
 		684B83FC18F3525D00615D93 /* Greek-Salad-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Greek-Salad-2.jpg"; sourceTree = "<group>"; };
 		684B83FE18F3569300615D93 /* cookinginstructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookinginstructions.png; sourceTree = "<group>"; };
 		684B840018F389B100615D93 /* ios7_siri_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7_siri_icon.png; sourceTree = "<group>"; };
+		688551F919072FDB00CEEC02 /* CornTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CornTile.jpg; sourceTree = "<group>"; };
+		688551FB1907327200CEEC02 /* PotatoTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PotatoTile.jpg; sourceTree = "<group>"; };
+		688551FD1907327A00CEEC02 /* CaesarTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CaesarTile.jpg; sourceTree = "<group>"; };
+		688552011907332600CEEC02 /* GreekTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GreekTile.jpg; sourceTree = "<group>"; };
+		68855203190734A400CEEC02 /* ChickenTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChickenTile.jpg; sourceTree = "<group>"; };
+		68855205190734C700CEEC02 /* AppleColeslawTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppleColeslawTile.jpg; sourceTree = "<group>"; };
 		68B7F11F18F1E078004BCD37 /* icon_431.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_431.png; sourceTree = "<group>"; };
 		68B7F12318F1EC5A004BCD37 /* ResultsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsCollectionViewController.h; sourceTree = "<group>"; };
 		68B7F12418F1EC5A004BCD37 /* ResultsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsCollectionViewController.m; sourceTree = "<group>"; };
 		68B7F12918F1F941004BCD37 /* RecommendedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendedViewController.h; sourceTree = "<group>"; };
 		68B7F12A18F1F941004BCD37 /* RecommendedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendedViewController.m; sourceTree = "<group>"; };
-		68CD175318FC864E006BEEE7 /* AppleColeslawTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppleColeslawTile.jpg; sourceTree = "<group>"; };
-		68CD175418FC864E006BEEE7 /* BB&CornTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BB&CornTile.jpg"; sourceTree = "<group>"; };
 		68CD175518FC864E006BEEE7 /* CaesarSaladTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CaesarSaladTile.jpg; sourceTree = "<group>"; };
 		68CD175618FC864E006BEEE7 /* ChickenSaladTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChickenSaladTile.jpg; sourceTree = "<group>"; };
 		68CD175718FC864E006BEEE7 /* FruitSaladTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FruitSaladTile.jpg; sourceTree = "<group>"; };
@@ -215,12 +223,16 @@
 		68E4E58418E9E98500E06DED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68855205190734C700CEEC02 /* AppleColeslawTile.jpg */,
+				68855203190734A400CEEC02 /* ChickenTile.jpg */,
+				688552011907332600CEEC02 /* GreekTile.jpg */,
+				688551FD1907327A00CEEC02 /* CaesarTile.jpg */,
+				688551FB1907327200CEEC02 /* PotatoTile.jpg */,
+				688551F919072FDB00CEEC02 /* CornTile.jpg */,
 				68CD176518FC8937006BEEE7 /* AvocadoTile.jpg */,
 				68CD176618FC8937006BEEE7 /* EggSaladTile.jpg */,
 				68CD176718FC8937006BEEE7 /* ShrimpSaladTile.jpg */,
 				68CD176318FC8748006BEEE7 /* TunaSaladTile.jpg */,
-				68CD175318FC864E006BEEE7 /* AppleColeslawTile.jpg */,
-				68CD175418FC864E006BEEE7 /* BB&CornTile.jpg */,
 				68CD175518FC864E006BEEE7 /* CaesarSaladTile.jpg */,
 				68CD175618FC864E006BEEE7 /* ChickenSaladTile.jpg */,
 				68CD175718FC864E006BEEE7 /* FruitSaladTile.jpg */,
@@ -354,17 +366,22 @@
 				067E5AFC18F4E8D200CBE994 /* tomato1.jpg in Resources */,
 				68E4E59618E9E98500E06DED /* Images.xcassets in Resources */,
 				68CD176A18FC8937006BEEE7 /* ShrimpSaladTile.jpg in Resources */,
+				688551FE1907327A00CEEC02 /* CaesarTile.jpg in Resources */,
 				682859CD18F4B56100675186 /* icon-ios7-arrow-right-512.png in Resources */,
 				68B7F12018F1E078004BCD37 /* icon_431.png in Resources */,
 				68E4E58818E9E98500E06DED /* InfoPlist.strings in Resources */,
 				68CD176818FC8937006BEEE7 /* AvocadoTile.jpg in Resources */,
 				68CD176018FC864E006BEEE7 /* GreekSaladTile.jpg in Resources */,
 				0691DFCA18F35BC6004EC9AB /* menu-icon30.png in Resources */,
+				688551FC1907327200CEEC02 /* PotatoTile.jpg in Resources */,
 				682859D518F4B6A000675186 /* icon-ios7-arrow-right-64.png in Resources */,
 				067E5AFB18F4E8D200CBE994 /* onion2.jpg in Resources */,
 				067E5AFF18F4E8DA00CBE994 /* cucumber.jpg in Resources */,
+				68855204190734A400CEEC02 /* ChickenTile.jpg in Resources */,
 				68CD176418FC8748006BEEE7 /* TunaSaladTile.jpg in Resources */,
 				684B83FF18F3569300615D93 /* cookinginstructions.png in Resources */,
+				688552021907332600CEEC02 /* GreekTile.jpg in Resources */,
+				68855206190734C700CEEC02 /* AppleColeslawTile.jpg in Resources */,
 				682859CC18F4B56100675186 /* icon-ios7-arrow-left-512.png in Resources */,
 				68315FFD18F1CEF700808FEA /* CookableResultTile.png in Resources */,
 				68CD176118FC864E006BEEE7 /* PotatoSaladTile.jpg in Resources */,
@@ -372,6 +389,7 @@
 				68E4E59118E9E98500E06DED /* Main.storyboard in Resources */,
 				067E5AF818F4E8D200CBE994 /* mix.jpg in Resources */,
 				067E5AFA18F4E8D200CBE994 /* onion1.jpg in Resources */,
+				688551FA19072FDB00CEEC02 /* CornTile.jpg in Resources */,
 				684B83FA18F3522700615D93 /* greek-salad-su-1173749-l.jpg in Resources */,
 				6831600118F1DDE200808FEA /* star.png in Resources */,
 				68CD175F18FC864E006BEEE7 /* FruitSaladTile.jpg in Resources */,
@@ -381,8 +399,6 @@
 				067E5AF918F4E8D200CBE994 /* olive.jpg in Resources */,
 				684B840118F389B100615D93 /* ios7_siri_icon.png in Resources */,
 				68CD176918FC8937006BEEE7 /* EggSaladTile.jpg in Resources */,
-				68CD175B18FC864E006BEEE7 /* AppleColeslawTile.jpg in Resources */,
-				68CD175C18FC864E006BEEE7 /* BB&CornTile.jpg in Resources */,
 				684B83FD18F3525D00615D93 /* Greek-Salad-2.jpg in Resources */,
 				68CD175E18FC864E006BEEE7 /* ChickenSaladTile.jpg in Resources */,
 			);

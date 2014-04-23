@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ResultsCollectionViewController : UICollectionViewController
+- (IBAction)Sort:(UISegmentedControl *)sender;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segcontrol;
 
 @end
