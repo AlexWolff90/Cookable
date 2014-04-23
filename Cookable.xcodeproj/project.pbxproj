@@ -17,6 +17,7 @@
 		067E5B0218F4E9E600CBE994 /* StepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067E5B0118F4E9E600CBE994 /* StepsViewController.m */; };
 		0691DFCA18F35BC6004EC9AB /* menu-icon30.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691DFC918F35BC6004EC9AB /* menu-icon30.png */; };
 		0691DFCD18F36B39004EC9AB /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691DFCC18F36B39004EC9AB /* StepViewController.m */; };
+		3447403019086309001BD031 /* RNGViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3447402F19086309001BD031 /* RNGViewController2.m */; };
 		682859CC18F4B56100675186 /* icon-ios7-arrow-left-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 682859CA18F4B56100675186 /* icon-ios7-arrow-left-512.png */; };
 		682859CD18F4B56100675186 /* icon-ios7-arrow-right-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 682859CB18F4B56100675186 /* icon-ios7-arrow-right-512.png */; };
 		682859D418F4B6A000675186 /* icon-ios7-arrow-left-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 682859D218F4B6A000675186 /* icon-ios7-arrow-left-64.png */; };
@@ -87,6 +88,8 @@
 		0691DFC918F35BC6004EC9AB /* menu-icon30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon30.png"; sourceTree = "<group>"; };
 		0691DFCB18F36B39004EC9AB /* StepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepViewController.h; sourceTree = "<group>"; };
 		0691DFCC18F36B39004EC9AB /* StepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepViewController.m; sourceTree = "<group>"; };
+		3447402E19086309001BD031 /* RNGViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGViewController2.h; sourceTree = "<group>"; };
+		3447402F19086309001BD031 /* RNGViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGViewController2.m; sourceTree = "<group>"; };
 		682859CA18F4B56100675186 /* icon-ios7-arrow-left-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-left-512.png"; sourceTree = "<group>"; };
 		682859CB18F4B56100675186 /* icon-ios7-arrow-right-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-right-512.png"; sourceTree = "<group>"; };
 		682859D218F4B6A000675186 /* icon-ios7-arrow-left-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-left-64.png"; sourceTree = "<group>"; };
@@ -214,6 +217,8 @@
 				68B7F12418F1EC5A004BCD37 /* ResultsCollectionViewController.m */,
 				68E4E59218E9E98500E06DED /* RNGViewController.h */,
 				68E4E59318E9E98500E06DED /* RNGViewController.m */,
+				3447402E19086309001BD031 /* RNGViewController2.h */,
+				3447402F19086309001BD031 /* RNGViewController2.m */,
 				68E4E59518E9E98500E06DED /* Images.xcassets */,
 				68E4E58418E9E98500E06DED /* Supporting Files */,
 			);
@@ -419,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3447403019086309001BD031 /* RNGViewController2.m in Sources */,
 				68E4E58E18E9E98500E06DED /* RNGAppDelegate.m in Sources */,
 				68E4E58A18E9E98500E06DED /* main.m in Sources */,
 				0691DFCD18F36B39004EC9AB /* StepViewController.m in Sources */,
