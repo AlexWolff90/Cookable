@@ -26,11 +26,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.stepTitles = @[@"Chop Tomato (1 Tomato)", @"Chop Onion (1/2 Onion)", @"Peel and Chop Cucumbers (1 Cucumber)", @"Pit and Slice Olives (2 Olives)", @"Mix Salad", @""];
-    self.stepVideos = @[@"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/T0xVthFSJBg\" frameborder=\"0\" allowfullscreen></iframe>", @"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/vfWLyCdFrms\" frameborder=\"0\" allowfullscreen></iframe>", @"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/2jms-JTcY5s\" frameborder=\"0\" allowfullscreen></iframe>", @"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/dJms-9ZwoLM\" frameborder=\"0\" allowfullscreen></iframe>", @"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/TROiZTbgsg8\" frameborder=\"0\" allowfullscreen></iframe>", @""];
-    self.stepText = @[@"1. Remove the stem with fingers\n2. Place on cutting board and slice in half horizontally\n3. Cut each half into horizontal slices\n4. Stack slices and cut vertical slices\n5. Turn stack 90 degrees and cut vertical slices", @"1. Trim the ends off\n2. Cut in half lengthwise\n3. Peel the skin off each half\n4. Place a half on cutting board with flat side down\n5. Slice crosswise\n6. Flip section sideways\n7. Cut along the straight edge and work toward edge", @"1. Cut off ends\n2. Peel cucumber\n3. Cut in half lengthwise\n4. Use small spoon to scoop seeds\n5. Cut lengthwise strips\n6. Cut across strips", @"1. Place olive on cutting board\n2. Place flat side of knife on olive\n3. Carefully pound lightly on the knife with your fist\n4. Remove pit\n5. Slice up lengthwise", @"1. Put tomato, onion, and cucumber in a bowl\n2. Mix bowl\n3. Sprinkle oil, lemon juice, and salt/pepper over bowl\n4. Put in bowls for serving\n5. Sprinkle feta cheese and olives over salad\n6. Serve", @""];
-    self.stepImage1 = @[@"tomato1.jpg", @"onion1.jpg", @"cucumber.jpg", @"olive.jpg", @"mix.jpg", @""];
-    self.stepImage2 = @[@"tomato2.jpg", @"onion2.jpg", @"", @"", @"", @""];
+    if ([self.recipeName isEqualToString:@"Apple"]) {
+        self.stepTitles = @[@"Combine fruits and vegetables in large bowl", @"Mix mayonnaise, brown sugar, and lemon juice", @"Pour dressing over salad in large bowl", @""];
+        self.stepText = @[@"1. In a large bowl, combine cabbage, red apple, green apple, carrot, red bell pepper, and green onions", @"1. In a small bowl, mix together mayonnaise, brown sugar, and lemon juice", @"1. Pour dressing in small bowl over salad in large bowl\n2. Serve", @""];
+        self.stepImageBig = @[@"apple-step1.jpg", @"apple-step2.jpg", @"apple-step3.jpg", @""];
+        self.stepImage1 = @[@"apple-step1small.jpg", @"apple-step2small.jpg", @"apple-step3small.jpg", @""];
+    } else {
+        self.stepTitles = @[@"Chop Tomato (1 Tomato)", @"Chop Onion (1/2 Onion)", @"Peel and Chop Cucumbers (1 Cucumber)", @"Pit and Slice Olives (2 Olives)", @"Mix Salad", @""];
+        self.stepVideos = @[@"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/T0xVthFSJBg\" frameborder=\"0\" allowfullscreen></iframe>", @"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/vfWLyCdFrms\" frameborder=\"0\" allowfullscreen></iframe>", @"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/2jms-JTcY5s\" frameborder=\"0\" allowfullscreen></iframe>", @"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/dJms-9ZwoLM\" frameborder=\"0\" allowfullscreen></iframe>", @"<iframe width=\"728\" height=\"400\" src=\"//www.youtube.com/embed/TROiZTbgsg8\" frameborder=\"0\" allowfullscreen></iframe>", @""];
+        self.stepText = @[@"1. Remove the stem with fingers\n2. Place on cutting board and slice in half horizontally\n3. Cut each half into horizontal slices\n4. Stack slices and cut vertical slices\n5. Turn stack 90 degrees and cut vertical slices", @"1. Trim the ends off\n2. Cut in half lengthwise\n3. Peel the skin off each half\n4. Place a half on cutting board with flat side down\n5. Slice crosswise\n6. Flip section sideways\n7. Cut along the straight edge and work toward edge", @"1. Cut off ends\n2. Peel cucumber\n3. Cut in half lengthwise\n4. Use small spoon to scoop seeds\n5. Cut lengthwise strips\n6. Cut across strips", @"1. Place olive on cutting board\n2. Place flat side of knife on olive\n3. Carefully pound lightly on the knife with your fist\n4. Remove pit\n5. Slice up lengthwise", @"1. Put tomato, onion, and cucumber in a bowl\n2. Mix bowl\n3. Sprinkle oil, lemon juice, and salt/pepper over bowl\n4. Put in bowls for serving\n5. Sprinkle feta cheese and olives over salad\n6. Serve", @""];
+        self.stepImage1 = @[@"tomato1.jpg", @"onion1.jpg", @"cucumber.jpg", @"olive.jpg", @"mix.jpg", @""];
+        self.stepImage2 = @[@"tomato2.jpg", @"onion2.jpg", @"", @"", @"", @""];
+    }
+    
+    
+
     // Create page view controller
     self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
     self.pageViewController.dataSource = self;
@@ -57,6 +67,7 @@
     StepViewController *stepViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"StepViewController"];
     stepViewController.titleText = self.stepTitles[index];
     stepViewController.videoCode = self.stepVideos[index];
+    stepViewController.imageFileBig = self.stepImageBig[index];
     stepViewController.stepText = self.stepText[index];
     stepViewController.imageFile1 = self.stepImage1[index];
     stepViewController.imageFile2 = self.stepImage2[index];

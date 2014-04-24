@@ -18,6 +18,12 @@
 		067E5B0218F4E9E600CBE994 /* StepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067E5B0118F4E9E600CBE994 /* StepsViewController.m */; };
 		0691DFCA18F35BC6004EC9AB /* menu-icon30.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691DFC918F35BC6004EC9AB /* menu-icon30.png */; };
 		0691DFCD18F36B39004EC9AB /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691DFCC18F36B39004EC9AB /* StepViewController.m */; };
+		06DAE31C1909BB6300966C77 /* apple-step1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06DAE31A1909BB6300966C77 /* apple-step1.jpg */; };
+		06DAE31D1909BB6300966C77 /* apple-step1small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06DAE31B1909BB6300966C77 /* apple-step1small.jpg */; };
+		06DAE3221909BE9C00966C77 /* apple-step2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06DAE31E1909BE9C00966C77 /* apple-step2.jpg */; };
+		06DAE3231909BE9C00966C77 /* apple-step2small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06DAE31F1909BE9C00966C77 /* apple-step2small.jpg */; };
+		06DAE3241909BE9C00966C77 /* apple-step3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06DAE3201909BE9C00966C77 /* apple-step3.jpg */; };
+		06DAE3251909BE9C00966C77 /* apple-step3small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06DAE3211909BE9C00966C77 /* apple-step3small.jpg */; };
 		3447403019086309001BD031 /* RNGViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3447402F19086309001BD031 /* RNGViewController2.m */; };
 		682859CC18F4B56100675186 /* icon-ios7-arrow-left-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 682859CA18F4B56100675186 /* icon-ios7-arrow-left-512.png */; };
 		682859CD18F4B56100675186 /* icon-ios7-arrow-right-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 682859CB18F4B56100675186 /* icon-ios7-arrow-right-512.png */; };
@@ -95,6 +101,12 @@
 		0691DFC918F35BC6004EC9AB /* menu-icon30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon30.png"; sourceTree = "<group>"; };
 		0691DFCB18F36B39004EC9AB /* StepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepViewController.h; sourceTree = "<group>"; };
 		0691DFCC18F36B39004EC9AB /* StepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepViewController.m; sourceTree = "<group>"; };
+		06DAE31A1909BB6300966C77 /* apple-step1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-step1.jpg"; sourceTree = "<group>"; };
+		06DAE31B1909BB6300966C77 /* apple-step1small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-step1small.jpg"; sourceTree = "<group>"; };
+		06DAE31E1909BE9C00966C77 /* apple-step2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-step2.jpg"; sourceTree = "<group>"; };
+		06DAE31F1909BE9C00966C77 /* apple-step2small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-step2small.jpg"; sourceTree = "<group>"; };
+		06DAE3201909BE9C00966C77 /* apple-step3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-step3.jpg"; sourceTree = "<group>"; };
+		06DAE3211909BE9C00966C77 /* apple-step3small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-step3small.jpg"; sourceTree = "<group>"; };
 		3447402E19086309001BD031 /* RNGViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGViewController2.h; sourceTree = "<group>"; };
 		3447402F19086309001BD031 /* RNGViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGViewController2.m; sourceTree = "<group>"; };
 		682859CA18F4B56100675186 /* icon-ios7-arrow-left-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-left-512.png"; sourceTree = "<group>"; };
@@ -241,6 +253,12 @@
 		68E4E58418E9E98500E06DED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06DAE31E1909BE9C00966C77 /* apple-step2.jpg */,
+				06DAE31F1909BE9C00966C77 /* apple-step2small.jpg */,
+				06DAE3201909BE9C00966C77 /* apple-step3.jpg */,
+				06DAE3211909BE9C00966C77 /* apple-step3small.jpg */,
+				06DAE31A1909BB6300966C77 /* apple-step1.jpg */,
+				06DAE31B1909BB6300966C77 /* apple-step1small.jpg */,
 				68A45CE91909AB0400AAD5EE /* apple coleslaw 4.jpg */,
 				68A45CEA1909AB0400AAD5EE /* apple-coleslaw-close.jpg */,
 				68A45CEB1909AB0400AAD5EE /* Apple-Cranberry-Coleslaw.jpg */,
@@ -392,14 +410,17 @@
 				68B7F12018F1E078004BCD37 /* icon_431.png in Resources */,
 				68E4E58818E9E98500E06DED /* InfoPlist.strings in Resources */,
 				68CD176818FC8937006BEEE7 /* AvocadoTile.jpg in Resources */,
+				06DAE31D1909BB6300966C77 /* apple-step1small.jpg in Resources */,
 				68CD176018FC864E006BEEE7 /* GreekSaladTile.jpg in Resources */,
 				0691DFCA18F35BC6004EC9AB /* menu-icon30.png in Resources */,
 				688551FC1907327200CEEC02 /* PotatoTile.jpg in Resources */,
 				682859D518F4B6A000675186 /* icon-ios7-arrow-right-64.png in Resources */,
 				067E5AFB18F4E8D200CBE994 /* onion2.jpg in Resources */,
 				067E5AFF18F4E8DA00CBE994 /* cucumber.jpg in Resources */,
+				06DAE3231909BE9C00966C77 /* apple-step2small.jpg in Resources */,
 				68A45CEE1909AB0400AAD5EE /* apple-coleslaw-close.jpg in Resources */,
 				68855204190734A400CEEC02 /* ChickenTile.jpg in Resources */,
+				06DAE3251909BE9C00966C77 /* apple-step3small.jpg in Resources */,
 				68CD176418FC8748006BEEE7 /* TunaSaladTile.jpg in Resources */,
 				684B83FF18F3569300615D93 /* cookinginstructions.png in Resources */,
 				68A45CF01909AB0400AAD5EE /* red-cabbage-coleslaw.jpg in Resources */,
@@ -426,6 +447,9 @@
 				684B83FD18F3525D00615D93 /* Greek-Salad-2.jpg in Resources */,
 				68B8BA9A19085DDF000BA0C1 /* CaesarTile.jpg in Resources */,
 				68CD175E18FC864E006BEEE7 /* ChickenSaladTile.jpg in Resources */,
+				06DAE3241909BE9C00966C77 /* apple-step3.jpg in Resources */,
+				06DAE3221909BE9C00966C77 /* apple-step2.jpg in Resources */,
+				06DAE31C1909BB6300966C77 /* apple-step1.jpg in Resources */,
 				68A45CEF1909AB0400AAD5EE /* Apple-Cranberry-Coleslaw.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

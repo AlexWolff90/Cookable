@@ -7,6 +7,7 @@
 //
 
 #import "AppleRecipeTableViewController.h"
+#import "StepsViewController.h"
 
 @interface AppleRecipeTableViewController ()
 
@@ -134,6 +135,11 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    StepsViewController *svc = segue.destinationViewController;
+    svc.recipeName = @"Apple";
+}
 
 - (IBAction)onionLeftB:(UIButton *)sender {
     self.onionLabel.text = @"2 Red Onions, Finely Chopped";

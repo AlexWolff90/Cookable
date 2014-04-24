@@ -1262,6 +1262,10 @@
                                 <rect key="frame" x="449" y="737" width="299" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BhL-th-udi">
+                                <rect key="frame" x="20" y="117" width="728" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -1270,6 +1274,7 @@
                         <outlet property="homeButton" destination="86W-WD-rjT" id="0J9-lJ-mSd"/>
                         <outlet property="image1" destination="R1S-7q-vLI" id="epT-We-k4m"/>
                         <outlet property="image2" destination="7Vg-zo-8Ye" id="GaQ-3v-SE5"/>
+                        <outlet property="imageBig" destination="BhL-th-udi" id="f1x-MF-ElA"/>
                         <outlet property="textView" destination="pUB-P2-KPo" id="Qx3-k8-5ME"/>
                         <outlet property="titleLabel" destination="bJ1-41-d6I" id="VPQ-wp-qR4"/>
                         <outlet property="video" destination="yhS-kN-KOE" id="ChR-lV-pPV"/>
@@ -1277,7 +1282,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xYg-6k-HwE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3527" y="-258"/>
+            <point key="canvasLocation" x="3747" y="-138"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="83k-38-40P">
@@ -1829,7 +1834,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="H68-IS-2u0" kind="push" id="JEc-fJ-dtx"/>
+                                                        <segue destination="H68-IS-2u0" kind="push" id="vIR-8S-G5r"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -2032,6 +2037,9 @@
                                                     <state key="normal" title="Start">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="BQF-kh-hle" kind="push" id="XsP-hJ-i5m"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -2065,8 +2073,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Mix together mayonnaise, brown sugar, and lemon juice in small bowl" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0z-8u-71n">
-                                                    <rect key="frame" x="199" y="11" width="552" height="21"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Mix mayonnaise, brown sugar, and lemon juice" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0z-8u-71n">
+                                                    <rect key="frame" x="199" y="11" width="378" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
@@ -2138,8 +2146,9 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="z8L-w3-vlO"/>
-        <segue reference="gP5-ad-PMr"/>
         <segue reference="fpD-3t-muk"/>
+        <segue reference="gP5-ad-PMr"/>
+        <segue reference="z8L-w3-vlO"/>
+        <segue reference="XsP-hJ-i5m"/>
     </inferredMetricsTieBreakers>
 </document>

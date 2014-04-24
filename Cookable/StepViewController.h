@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *homeButton;
 @property (weak, nonatomic) IBOutlet UIImageView *image1;
 @property (weak, nonatomic) IBOutlet UIImageView *image2;
+@property (weak, nonatomic) IBOutlet UIImageView *imageBig;
 
 
 @property NSString *titleText;
@@ -24,5 +25,6 @@
 @property NSString *videoCode;
 @property NSString *imageFile1;
 @property NSString *imageFile2;
+@property NSString *imageFileBig;
 
 @end

@@ -17,5 +17,6 @@
 @property (strong, nonatomic) NSArray *stepText;
 @property (strong, nonatomic) NSArray *stepImage1;
 @property (strong, nonatomic) NSArray *stepImage2;
-
+@property (strong, nonatomic) NSArray *stepImageBig;
+@property (strong, nonatomic) NSString *recipeName;
 @end
