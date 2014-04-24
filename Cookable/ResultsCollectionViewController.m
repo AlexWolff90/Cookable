@@ -30,7 +30,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     // Initialize recipe image array
-    recipeImages = [NSArray arrayWithObjects:@"AppleColeslawTile.jpg", @"ChickenTile.jpg", @"CaesarTile.jpg", @"GreekTile.jpg", @"PotatoTile.jpg", @"CornTile.jpg", nil];
+    recipeImages = [NSArray arrayWithObjects:@"CaesarTile.jpg", @"GreekTile.jpg", @"AppleColeslawTile.jpg", @"PotatoTile.jpg", @"CornTile.jpg", @"ChickenTile.jpg", nil];
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
@@ -47,6 +47,22 @@
     recipeImageView.image = [UIImage imageNamed:[recipeImages objectAtIndex:indexPath.row]];
     
     return results;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (self.segcontrol.selectedSegmentIndex) {
+        if (indexPath.row == 0) {
+            [self performSegueWithIdentifier:@"AppleSegue" sender:self];
+        } else {
+            [self performSegueWithIdentifier:@"GreekSegue" sender:self];
+        }
+    } else {
+        if (indexPath.row == 2) {
+            [self performSegueWithIdentifier:@"AppleSegue" sender:self];
+        } else {
+            [self performSegueWithIdentifier:@"GreekSegue" sender:self];
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,11 +86,11 @@
     switch (self.segcontrol.selectedSegmentIndex)
     {
         case 0:
-            recipeImages = [NSArray arrayWithObjects:@"AppleColeslawTile.jpg", @"ChickenTile.jpg", @"CaesarTile.jpg", @"GreekTile.jpg", @"PotatoTile.jpg", @"CornTile.jpg", nil];
+            recipeImages = [NSArray arrayWithObjects:@"CaesarTile.jpg", @"GreekTile.jpg", @"AppleColeslawTile.jpg", @"PotatoTile.jpg", @"CornTile.jpg", @"ChickenTile.jpg", nil];
             [self.collectionView reloadData];
             break;
         case 1:
-            recipeImages = [NSArray arrayWithObjects:@"CaesarTile.jpg", @"GreekTile.jpg", @"AppleColeslawTile.jpg", @"PotatoTile.jpg", @"CornTile.jpg", @"ChickenTile.jpg", nil];
+            recipeImages = [NSArray arrayWithObjects:@"AppleColeslawTile.jpg", @"ChickenTile.jpg", @"CaesarTile.jpg", @"GreekTile.jpg", @"PotatoTile.jpg", @"CornTile.jpg", nil];
             [self.collectionView reloadData];
             break;
         default: 
