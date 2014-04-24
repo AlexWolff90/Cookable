@@ -37,6 +37,10 @@
 		688552021907332600CEEC02 /* GreekTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 688552011907332600CEEC02 /* GreekTile.jpg */; };
 		68855204190734A400CEEC02 /* ChickenTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68855203190734A400CEEC02 /* ChickenTile.jpg */; };
 		68855206190734C700CEEC02 /* AppleColeslawTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68855205190734C700CEEC02 /* AppleColeslawTile.jpg */; };
+		68A45CED1909AB0400AAD5EE /* apple coleslaw 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68A45CE91909AB0400AAD5EE /* apple coleslaw 4.jpg */; };
+		68A45CEE1909AB0400AAD5EE /* apple-coleslaw-close.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68A45CEA1909AB0400AAD5EE /* apple-coleslaw-close.jpg */; };
+		68A45CEF1909AB0400AAD5EE /* Apple-Cranberry-Coleslaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68A45CEB1909AB0400AAD5EE /* Apple-Cranberry-Coleslaw.jpg */; };
+		68A45CF01909AB0400AAD5EE /* red-cabbage-coleslaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68A45CEC1909AB0400AAD5EE /* red-cabbage-coleslaw.jpg */; };
 		68B7F12018F1E078004BCD37 /* icon_431.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B7F11F18F1E078004BCD37 /* icon_431.png */; };
 		68B7F12518F1EC5A004BCD37 /* ResultsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B7F12418F1EC5A004BCD37 /* ResultsCollectionViewController.m */; };
 		68B7F12B18F1F941004BCD37 /* RecommendedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B7F12A18F1F941004BCD37 /* RecommendedViewController.m */; };
@@ -112,6 +116,10 @@
 		688552011907332600CEEC02 /* GreekTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GreekTile.jpg; sourceTree = "<group>"; };
 		68855203190734A400CEEC02 /* ChickenTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChickenTile.jpg; sourceTree = "<group>"; };
 		68855205190734C700CEEC02 /* AppleColeslawTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppleColeslawTile.jpg; sourceTree = "<group>"; };
+		68A45CE91909AB0400AAD5EE /* apple coleslaw 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple coleslaw 4.jpg"; sourceTree = "<group>"; };
+		68A45CEA1909AB0400AAD5EE /* apple-coleslaw-close.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-coleslaw-close.jpg"; sourceTree = "<group>"; };
+		68A45CEB1909AB0400AAD5EE /* Apple-Cranberry-Coleslaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apple-Cranberry-Coleslaw.jpg"; sourceTree = "<group>"; };
+		68A45CEC1909AB0400AAD5EE /* red-cabbage-coleslaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "red-cabbage-coleslaw.jpg"; sourceTree = "<group>"; };
 		68B7F11F18F1E078004BCD37 /* icon_431.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_431.png; sourceTree = "<group>"; };
 		68B7F12318F1EC5A004BCD37 /* ResultsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsCollectionViewController.h; sourceTree = "<group>"; };
 		68B7F12418F1EC5A004BCD37 /* ResultsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsCollectionViewController.m; sourceTree = "<group>"; };
@@ -233,6 +241,10 @@
 		68E4E58418E9E98500E06DED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68A45CE91909AB0400AAD5EE /* apple coleslaw 4.jpg */,
+				68A45CEA1909AB0400AAD5EE /* apple-coleslaw-close.jpg */,
+				68A45CEB1909AB0400AAD5EE /* Apple-Cranberry-Coleslaw.jpg */,
+				68A45CEC1909AB0400AAD5EE /* red-cabbage-coleslaw.jpg */,
 				68B8BA9919085DDF000BA0C1 /* CaesarTile.jpg */,
 				68855205190734C700CEEC02 /* AppleColeslawTile.jpg */,
 				68855203190734A400CEEC02 /* ChickenTile.jpg */,
@@ -386,11 +398,14 @@
 				682859D518F4B6A000675186 /* icon-ios7-arrow-right-64.png in Resources */,
 				067E5AFB18F4E8D200CBE994 /* onion2.jpg in Resources */,
 				067E5AFF18F4E8DA00CBE994 /* cucumber.jpg in Resources */,
+				68A45CEE1909AB0400AAD5EE /* apple-coleslaw-close.jpg in Resources */,
 				68855204190734A400CEEC02 /* ChickenTile.jpg in Resources */,
 				68CD176418FC8748006BEEE7 /* TunaSaladTile.jpg in Resources */,
 				684B83FF18F3569300615D93 /* cookinginstructions.png in Resources */,
+				68A45CF01909AB0400AAD5EE /* red-cabbage-coleslaw.jpg in Resources */,
 				688552021907332600CEEC02 /* GreekTile.jpg in Resources */,
 				68855206190734C700CEEC02 /* AppleColeslawTile.jpg in Resources */,
+				68A45CED1909AB0400AAD5EE /* apple coleslaw 4.jpg in Resources */,
 				682859CC18F4B56100675186 /* icon-ios7-arrow-left-512.png in Resources */,
 				68315FFD18F1CEF700808FEA /* CookableResultTile.png in Resources */,
 				68CD176118FC864E006BEEE7 /* PotatoSaladTile.jpg in Resources */,
@@ -411,6 +426,7 @@
 				684B83FD18F3525D00615D93 /* Greek-Salad-2.jpg in Resources */,
 				68B8BA9A19085DDF000BA0C1 /* CaesarTile.jpg in Resources */,
 				68CD175E18FC864E006BEEE7 /* ChickenSaladTile.jpg in Resources */,
+				68A45CEF1909AB0400AAD5EE /* Apple-Cranberry-Coleslaw.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

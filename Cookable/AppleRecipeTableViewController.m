@@ -32,8 +32,8 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.recipeImages = [NSArray arrayWithObjects:@"AppleColeslawTile.jpg", @"AppleColeslawTile.jpg",
-                    @"AppleColeslawTile.jpg", nil];
+    self.recipeImages = [NSArray arrayWithObjects:@"apple coleslaw 4.jpg", @"apple-coleslaw-close.jpg",
+                    @"Apple-Cranberry-Coleslaw.jpg", @"red-cabbage-coleslaw.jpg", nil];
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
