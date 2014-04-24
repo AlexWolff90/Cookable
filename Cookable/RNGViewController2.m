@@ -147,7 +147,7 @@ label_price_7,label_price_8,label_price_9,total_price,place_order;
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    [self performSegueWithIdentifier:@"orderIngredientsSegue" sender:self];
+    [self performSegueWithIdentifier:@"orderIngredientsSegue2" sender:self];
 }
 
 -(IBAction)disableOrEnableConfirm

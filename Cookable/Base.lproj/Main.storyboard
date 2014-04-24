@@ -1752,11 +1752,12 @@
                         <outlet property="label_quant_9" destination="UJg-6W-Fe5" id="CT8-im-b6d"/>
                         <outlet property="place_order" destination="FKe-Na-oDJ" id="OxY-91-vZz"/>
                         <outlet property="total_price" destination="pUl-vy-0EC" id="7I7-Si-FjM"/>
+                        <segue destination="FSQ-zb-EFF" kind="push" identifier="orderIngredientsSegue2" id="IDe-aJ-zcm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zwk-X6-dPB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2326" y="-4124"/>
+            <point key="canvasLocation" x="2536" y="-3706"/>
         </scene>
         <!--Apple Recipe Table View Controller - Apple Coleslaw Salad-->
         <scene sceneID="hwB-Wa-Eli">
@@ -2138,7 +2139,8 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="gP5-ad-PMr"/>
         <segue reference="rVl-ri-XXp"/>
+        <segue reference="gP5-ad-PMr"/>
+        <segue reference="IDe-aJ-zcm"/>
     </inferredMetricsTieBreakers>
 </document>
