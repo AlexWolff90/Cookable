@@ -40,7 +40,7 @@ label_price_7,label_price_8,label_price_9,total_price,place_order;
     NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
 
     label_quant_1.text = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:sender.value]];
-    label_price_1.text = [NSString stringWithFormat:@"$ %.02f", sender.value * 5];
+    label_price_1.text = [NSString stringWithFormat:@"$ %.02f", sender.value * 1.00];
     [self updatePrice];
 }
 
@@ -49,7 +49,7 @@ label_price_7,label_price_8,label_price_9,total_price,place_order;
     NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
 
     label_quant_2.text = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:sender.value]];
-    label_price_2.text = [NSString stringWithFormat:@"$ %.02f", sender.value * 4];
+    label_price_2.text = [NSString stringWithFormat:@"$ %.02f", sender.value * 1.00];
     [self updatePrice];
 
 }
@@ -126,7 +126,7 @@ label_price_7,label_price_8,label_price_9,total_price,place_order;
 
 -(float)getTotalPrice
 {
-    return ([label_quant_9.text floatValue]*3 + [label_quant_8.text floatValue]*5 + [label_quant_7.text floatValue]*4 + [label_quant_6.text floatValue]*7 + [label_quant_5.text floatValue]*5 + [label_quant_4.text floatValue]*6 + [label_quant_3.text floatValue]*3 + [label_quant_2.text floatValue]*4 + [label_quant_1.text floatValue]*5);
+    return ([label_quant_9.text floatValue]*3 + [label_quant_8.text floatValue]*5 + [label_quant_7.text floatValue]*4 + [label_quant_6.text floatValue]*7 + [label_quant_5.text floatValue]*5 + [label_quant_4.text floatValue]*6 + [label_quant_3.text floatValue]*3 + [label_quant_2.text floatValue]*1.00 + [label_quant_1.text floatValue]*1.00);
 }
 
 -(IBAction)updatePrice
