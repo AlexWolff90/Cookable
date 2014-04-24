@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06432C9A19087F8E007C26CF /* AppleRecipeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06432C9919087F8E007C26CF /* AppleRecipeTableViewController.m */; };
 		067E5AF818F4E8D200CBE994 /* mix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF218F4E8D200CBE994 /* mix.jpg */; };
 		067E5AF918F4E8D200CBE994 /* olive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF318F4E8D200CBE994 /* olive.jpg */; };
 		067E5AFA18F4E8D200CBE994 /* onion1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067E5AF418F4E8D200CBE994 /* onion1.jpg */; };
@@ -75,6 +76,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06432C9819087F8E007C26CF /* AppleRecipeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleRecipeTableViewController.h; sourceTree = "<group>"; };
+		06432C9919087F8E007C26CF /* AppleRecipeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleRecipeTableViewController.m; sourceTree = "<group>"; };
 		067E5AF218F4E8D200CBE994 /* mix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mix.jpg; sourceTree = "<group>"; };
 		067E5AF318F4E8D200CBE994 /* olive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = olive.jpg; sourceTree = "<group>"; };
 		067E5AF418F4E8D200CBE994 /* onion1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onion1.jpg; sourceTree = "<group>"; };
@@ -204,6 +207,8 @@
 				68E4E58C18E9E98500E06DED /* RNGAppDelegate.h */,
 				68E4E58D18E9E98500E06DED /* RNGAppDelegate.m */,
 				68E4E58F18E9E98500E06DED /* Main.storyboard */,
+				06432C9819087F8E007C26CF /* AppleRecipeTableViewController.h */,
+				06432C9919087F8E007C26CF /* AppleRecipeTableViewController.m */,
 				0691DFCB18F36B39004EC9AB /* StepViewController.h */,
 				0691DFCC18F36B39004EC9AB /* StepViewController.m */,
 				684B83F318F34E4900615D93 /* RecipeOverviewTableViewController.h */,
@@ -422,6 +427,7 @@
 				68E4E58E18E9E98500E06DED /* RNGAppDelegate.m in Sources */,
 				68E4E58A18E9E98500E06DED /* main.m in Sources */,
 				0691DFCD18F36B39004EC9AB /* StepViewController.m in Sources */,
+				06432C9A19087F8E007C26CF /* AppleRecipeTableViewController.m in Sources */,
 				68B7F12B18F1F941004BCD37 /* RecommendedViewController.m in Sources */,
 				68E4E59418E9E98500E06DED /* RNGViewController.m in Sources */,
 				684B83F518F34E4900615D93 /* RecipeOverviewTableViewController.m in Sources */,

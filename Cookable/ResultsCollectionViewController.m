@@ -49,6 +49,22 @@
     return results;
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (self.segcontrol.selectedSegmentIndex) {
+        if (indexPath.row == 0) {
+            [self performSegueWithIdentifier:@"AppleSegue" sender:self];
+        } else {
+            [self performSegueWithIdentifier:@"GreekSegue" sender:self];
+        }
+    } else {
+        if (indexPath.row == 2) {
+            [self performSegueWithIdentifier:@"AppleSegue" sender:self];
+        } else {
+            [self performSegueWithIdentifier:@"GreekSegue" sender:self];
+        }
+    }
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
