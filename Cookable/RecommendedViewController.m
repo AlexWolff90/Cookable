@@ -50,6 +50,14 @@
     return recommended;
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 5) {
+        [self performSegueWithIdentifier:@"AppleSegue" sender:self];
+    } else {
+        [self performSegueWithIdentifier:@"GreekSegue" sender:self];
+    }
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
