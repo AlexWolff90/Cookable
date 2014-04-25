@@ -137,8 +137,10 @@
 */
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    StepsViewController *svc = segue.destinationViewController;
-    svc.recipeName = @"Apple";
+    if ([segue.identifier isEqualToString:@"AppleCookSegue"]) {
+        StepsViewController *svc = segue.destinationViewController;
+        svc.recipeName = @"Apple";
+    }
 }
 
 - (IBAction)onionLeftB:(UIButton *)sender {

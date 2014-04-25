@@ -1834,7 +1834,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="H68-IS-2u0" kind="push" id="vIR-8S-G5r"/>
+                                                        <segue destination="H68-IS-2u0" kind="push" identifier="" id="vIR-8S-G5r"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -2038,7 +2038,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="BQF-kh-hle" kind="push" id="XsP-hJ-i5m"/>
+                                                        <segue destination="BQF-kh-hle" kind="push" identifier="AppleCookSegue" id="XsP-hJ-i5m"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -2146,9 +2146,9 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="fpD-3t-muk"/>
+        <segue reference="rVl-ri-XXp"/>
         <segue reference="gP5-ad-PMr"/>
-        <segue reference="z8L-w3-vlO"/>
         <segue reference="XsP-hJ-i5m"/>
+        <segue reference="IDe-aJ-zcm"/>
     </inferredMetricsTieBreakers>
 </document>
