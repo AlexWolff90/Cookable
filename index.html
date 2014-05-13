@@ -5,77 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="stylesheets/style.css">
 
     <title>Cookable</title>
   </head>
 
   <body>
     <header>
-      <div class="inner">
-        <h1>Cookable</h1>
-        <h2>Cooking made easy.</h2>
-        <a href="https://github.com/AlexWolff90/Cookable" class="button"><small>View project on</small>GitHub</a>
+      <div class="nav-container">
+	<div id="logo">
+	  <img src="images/logo.png" alt="logo">
+	</div>
+	<div class="navbar">
+	  <a href="/">Home</a>
+	  <a href="docs.html">Documentation</a>
+	  <a href="team.html">Team</a>
+	</div>
       </div>
     </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-<a name="welcome-to-cookable" class="anchor" href="#welcome-to-cookable"><span class="octicon octicon-link"></span></a>Welcome to Cookable.</h3>
+    <div class="content">
+      <p class="tagline">Cooking made easy.</p>
+      <div class="video">
+	<iframe width="640" height="360" src="//www.youtube.com/embed/kYwQnM_Ozss" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="blurb">Cookable helps you cook in an efficient, easy, and enjoyable way.</p>
+      <hr />
 
-<p>Cookable helps you cook in an efficient, easy, and enjoyable way. You can find recipes with desired ingredients, order needed ingredients for a recipe, and cook a recipe with detailed instructions.</p>
+      <div class="feature">
+	<p>
+	  1. Find recipes with desired ingredients.
+	</p>
+	<img src="images/home.png" width="300" height="400 "alt="Find recipes">
+      </div>
 
-<h3>
-<a name="reports" class="anchor" href="#reports"><span class="octicon octicon-link"></span></a>Reports</h3>
+      <div class="feature">
+	<p>
+	  2. Order ingredients for a recipe.
+	</p>
+	<img src="images/order.png" width="300" height="400 "alt="Order ingredients">
+      </div>
 
-<p><a href="https://docs.google.com/a/cornell.edu/document/d/1sdN7gYqnsLQ2rIVAttqFfdarfxXztsPPm32j9xv7KP4/edit">Contextual Inquiry</a></p>
-
-<p><a href="https://docs.google.com/a/cornell.edu/document/d/1gCMu0Pm5MIMwwEeLafyqnyYR-kubhHuw89clBzjqaLg/edit">Task Analysis</a></p>
-
-<p><a href="https://docs.google.com/a/cornell.edu/document/d/1EU2lnE0D5UXIApHQt1lkEgx30ZdRYXCxZjpyOGST3KE/edit">Concept Video</a></p>
-
-<p><a href="https://docs.google.com/a/cornell.edu/document/d/1A0tf3uV23dvQVNu4JuJVk1bg_Ntfz0jJyLpRY0T5nQI/edit">Lo-fi Prototyping</a></p>
-
-<p><a href="https://docs.google.com/a/cornell.edu/document/d/1IbZhTXo1_RWeSg_TLSXvhZuoq-cgoViaK3ndobAptWI/edit">Med-fi Prototype</a></p>
-
-<p><a href="https://docs.google.com/a/cornell.edu/document/d/1h33ODjIVkOh3KBt9B-fNm0J8g3RVhRi-WBbEGB-zo4E/edit">Hi-fi Prototype</a></p>
-
-<p><a href="https://docs.google.com/a/cornell.edu/document/d/1OYwuECw63Jr4MyYO9v2rl1pSo29FUPljTnUqgY6nLP8/edit">Field Usability Study</a></p>
-
-<p><a href="https://docs.google.com/a/cornell.edu/document/d/1nwB0g_9VP8IitLfz1cknTg3UgCrfGz_S6aPfA_wl7pg/edit">Interactive Prototype #2</a></p>
-
-<h3>
-<a name="try-the-prototype" class="anchor" href="#try-the-prototype"><span class="octicon octicon-link"></span></a>Try the prototype</h3>
-
-<p>Download the prototype by clicking a link on the right. After unzipping the file, you can run the prototype by opening Cookable.xcodeproj in Xcode, and running the simulator.</p>
-
-<h3>
-<a name="team" class="anchor" href="#team"><span class="octicon octicon-link"></span></a>Team</h3>
-
-<p>Cookable is a project by Alex Wolff (<a href="https://github.com/AlexWolff90" class="user-mention">@AlexWolff90</a>), Kevin Luo (<a href="https://github.com/kluo" class="user-mention">@kluo</a>), and Kwadwo Nyarko (<a href="https://github.com/kwadwon" class="user-mention">@kwadwon</a>) for <a href="https://teaching.tech.cornell.edu/courses/info6410/14sp/index.html">INFO6410</a>.</p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/AlexWolff90/Cookable/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/AlexWolff90/Cookable/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-        </aside>
+      <div class="feature">
+	<p>
+	  3. Cook a recipe with detailed instructions.
+	</p>
+	<img src="images/cook.png" width="300" height="400 "alt="Cook a recipe">
       </div>
     </div>
 
-  
+    <footer>
+      <p>Cookable | INFO6410 Spring 2014</p>
+    </footer>  
   </body>
 </html>
